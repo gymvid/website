@@ -1,4 +1,5 @@
 # GymVid Website
 
-Website for GymVid application.
+GymVid: The home of lifting videos
 
+Website for GymVid application.

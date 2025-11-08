@@ -267,7 +267,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                 ) : (
                   /* Step 3: Contact Details */
                   <>
-                    <div className="text-center mb-6 pt-2">
+                    <div className="text-center mb-4 pt-2">
                       <h2 className="text-2xl font-bold text-gray-dark mb-2">
                         You're Almost In!
                       </h2>

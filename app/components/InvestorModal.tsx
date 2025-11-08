@@ -191,10 +191,6 @@ export default function InvestorModal({ isOpen, onClose }: InvestorModalProps) {
 
                         <p>Lifters use video - but they don't have any technology to leverage the footage!</p>
 
-                        <p>We're not asking people to start filming their workouts - they already are!</p>
-
-                        <p>50+ million Instagram posts tagged with #formcheck proves this behavior already exists at scale.</p>
-
                         <p>So, we're creating the world's first AI-Powered Video Analysis for strength training!</p>
 
                         <p>We're going to transform wasted footage into automatic logging, verified PRs, & competitive leaderboards in a native social experience.</p>

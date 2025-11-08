@@ -45,7 +45,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Section 1: Landing Page */}
-      <section className="snap-section min-h-screen bg-white flex flex-col items-center justify-start md:justify-center px-4 pt-4 md:pt-0">
+      <section className="snap-section min-h-screen bg-white flex flex-col items-center justify-center px-4">
         <div className="flex flex-col items-center justify-center gap-6 w-full max-w-2xl">
           {/* Video and Logo Container */}
           <div className="relative w-full aspect-video md:h-[25vh] md:w-[50vw] flex items-center justify-center overflow-hidden">
@@ -53,7 +53,9 @@ export default function Home() {
             <img
               src="/images/logo/annimation/GymVidWelcomeAnimation-desktop.jpg"
               alt="GymVid Logo"
-              className="absolute inset-0 w-full h-full object-contain md:object-cover object-center md:object-top"
+              className={`absolute inset-0 w-full h-full object-contain md:object-cover object-center md:object-top transition-opacity duration-500 ${
+                videoEnded ? "opacity-100" : "opacity-0"
+              }`}
             />
 
             {/* Video Animation */}

@@ -185,7 +185,7 @@ export default function InvestorModal({ isOpen, onClose }: InvestorModalProps) {
                       <div className="text-base text-gray-medium leading-relaxed space-y-3">
                         <p>Strava revolutionized how millions of runners & cyclists track their workouts and connect with like-minded people.</p>
 
-                        <p className="font-semibold">We're building the same type of platform - with the same scalable potential - but for gym goers!</p>
+                        <p className="font-semibold">We're building exactly the same type of scalable platform - but for gym goers!</p>
 
                         <p>While runners use GPS tracking & Strava...</p>
 

@@ -276,7 +276,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                       </p>
                     </div>
 
-                    <form onSubmit={handleSubmit} className="space-y-4 mb-3">
+                    <form onSubmit={handleSubmit} className="space-y-4 mb-2">
                       {/* First Name Input */}
                       <div>
                         <input
@@ -336,18 +336,16 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                       <p className="text-xs text-gray-medium">
                         No spam, unsubscribe anytime.
                       </p>
-                    </div>
-
-                    {/* Privacy Policy Link */}
-                    <div className="text-center -mb-2">
-                      <a
-                        href="/privacy-policy"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-sm text-gray-medium hover:text-primary-glow underline transition-colors duration-150"
-                      >
-                        Privacy Policy
-                      </a>
+                      <p className="text-xs">
+                        <a
+                          href="/privacy-policy"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-xs text-gray-medium hover:text-primary-glow underline transition-colors duration-150"
+                        >
+                          Privacy Policy
+                        </a>
+                      </p>
                     </div>
                   </>
                 )}

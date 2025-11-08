@@ -165,7 +165,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                   /* Step 1: Initial Hook - Updated text */
                   <>
                     <div className="text-center mb-6 pt-3">
-                      <h2 className="text-2xl font-semibold text-gray-dark mb-4">
+                      <h2 className="text-2xl font-bold text-gray-dark mb-4">
                         Tired of Wasting Hours Logging All Your Workouts?
                       </h2>
                       <div className="text-base text-gray-medium leading-relaxed space-y-3">
@@ -219,7 +219,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                   /* Step 2: Interest Selection */
                   <>
                     <div className="text-center mb-6 pt-3">
-                      <h2 className="text-2xl font-semibold text-gray-dark mb-2">
+                      <h2 className="text-2xl font-bold text-gray-dark mb-2">
                         Which features excite you most about GymVid?
                       </h2>
                       <p className="text-base text-gray-medium">
@@ -271,7 +271,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                   /* Step 3: Contact Details */
                   <>
                     <div className="text-center mb-6 pt-3">
-                      <h2 className="text-2xl font-semibold text-gray-dark mb-2">
+                      <h2 className="text-2xl font-bold text-gray-dark mb-2">
                         You're Almost In!
                       </h2>
                       <p className="text-base text-gray-medium">
@@ -375,7 +375,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                     </svg>
                   </div>
                 </div>
-                <h3 className="text-2xl font-semibold text-gray-dark mb-2">
+                <h3 className="text-2xl font-bold text-gray-dark mb-2">
                   You're in!
                 </h3>
                 <p className="text-base text-gray-medium">

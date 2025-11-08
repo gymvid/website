@@ -16,9 +16,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
           <!-- Header -->
           <tr>
             <td style="padding: 40px 40px 20px; text-align: center;">
-              <h1 style="margin: 0; font-size: 32px; font-weight: 700; color: #1C1C1E; letter-spacing: -0.5px;">
-                Gym<span style="color: #007AFF;">Vid</span>
-              </h1>
+              <img src="https://gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" style="width: 220px; height: auto; max-width: 100%; display: block; margin: 0 auto;" />
             </td>
           </tr>
 

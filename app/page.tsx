@@ -168,7 +168,7 @@ export default function Home() {
           </div>
 
           {/* App Store Coming Soon Badges */}
-          <div className="flex flex-row items-center justify-center gap-4 mt-12">
+          <div className="flex flex-row items-center justify-center gap-4 mt-6">
             <img
               src="/images/logo/coming-soon-app.png"
               alt="Coming Soon on App Store"

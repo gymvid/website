@@ -144,11 +144,11 @@ export default function Home() {
                 : "opacity-0 translate-y-8"
             }`}
           >
-            {/* Register for Early Access Button - Primary Style (Design System) */}
+            {/* Register for Early Access Button - Flat Black */}
             <button
               onClick={() => setShowWaitlistModal(true)}
-              className="w-full sm:flex-1 min-h-[55px] px-4 bg-charcoal text-white-off font-semibold rounded-[12px]
-                       shadow-glow hover:bg-charcoal-active hover:shadow-glow-active
+              className="w-full sm:flex-1 min-h-[55px] px-4 bg-[#000000] text-white-off font-semibold rounded-[12px]
+                       hover:bg-gray-dark
                        transition-all duration-[150ms] hover:scale-[1.02] active:scale-95
                        text-lg"
             >

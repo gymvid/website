@@ -42,9 +42,9 @@ export async function POST(request: NextRequest) {
       `
     };
 
-    // Send notification email to you
+    // Send notification email to hello@gymvid.com
     const notificationEmail = {
-      to: 'jamienbisset@gmail.com',
+      to: 'hello@gymvid.com',
       from: {
         email: process.env.SENDGRID_FROM_EMAIL || 'hello@gymvid.com',
         name: process.env.FROM_NAME || 'GymVid'

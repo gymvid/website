@@ -194,7 +194,7 @@ export async function POST(request: Request) {
       body: JSON.stringify({
         personalizations: [
           {
-            to: [{ email: "jamienbisset@gmail.com" }],
+            to: [{ email: "hello@gymvid.com" }],
             subject: `New Investor Inquiry: ${firstName} ${lastName} (${investorTypeLabels[investorType] || investorType})`,
           },
         ],

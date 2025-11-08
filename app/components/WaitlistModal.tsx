@@ -272,7 +272,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                         You're Almost In!
                       </h2>
                       <p className="text-base text-gray-medium">
-                        Join 2,000+ lifters getting exclusive early access and VIP pricing for life.
+                        Secure your founding member spot and get VIP pricing locked in for life.
                       </p>
                     </div>
 

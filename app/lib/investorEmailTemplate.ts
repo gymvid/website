@@ -16,7 +16,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
           <!-- Header -->
           <tr>
             <td style="padding: 40px 40px 20px; text-align: center;">
-              <img src="https://gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" style="width: 220px; height: auto; max-width: 100%; display: block; margin: 0 auto;" />
+              <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" style="width: 220px; height: auto; max-width: 100%; display: block; margin: 0 auto;" />
             </td>
           </tr>
 

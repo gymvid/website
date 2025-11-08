@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Disallow admin/private pages when you add them
+# Disallow: /admin
+# Disallow: /api
+
+Sitemap: https://www.gymvid.com/sitemap.xml

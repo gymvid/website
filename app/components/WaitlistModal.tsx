@@ -162,7 +162,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
             {!isSuccess ? (
               <>
                 {step === 1 ? (
-                  /* Step 1: Initial Hook */
+                  /* Step 1: Initial Hook - Updated text */
                   <>
                     <div className="text-center mb-6 pt-3">
                       <h2 className="text-2xl font-semibold text-gray-dark mb-4">

@@ -5,7 +5,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to GymVid Beta Group</title>
+  <title>Welcome to GymVid – Your Founding Member Spot is Secured</title>
   <style>
     body {
       margin: 0;
@@ -32,43 +32,107 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       line-height: 1.6;
     }
     .greeting {
-      font-size: 18px;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    .tagline {
+      font-size: 14px;
+      color: #007AFF;
       font-weight: 600;
       margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
     }
     .body-text {
       font-size: 16px;
       margin-bottom: 16px;
+      color: #1C1C1E;
+    }
+    .highlight {
+      font-weight: 600;
+      color: #1C1C1E;
     }
     .benefits-title {
       font-size: 16px;
-      font-weight: 600;
-      margin: 24px 0 12px;
+      font-weight: 700;
+      margin: 28px 0 16px;
+      color: #1C1C1E;
     }
     .benefit-item {
       display: flex;
       align-items: flex-start;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
       font-size: 16px;
+      background-color: #f9fafb;
+      padding: 12px;
+      border-radius: 8px;
+      border-left: 3px solid #007AFF;
     }
     .checkmark {
       color: #007AFF;
       font-weight: 700;
       margin-right: 12px;
       flex-shrink: 0;
+      font-size: 18px;
     }
-    .cta {
-      margin: 32px 0;
+    .benefit-text {
+      flex: 1;
+      line-height: 1.5;
+    }
+    .benefit-title {
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .benefit-desc {
+      font-size: 14px;
+      color: #8E8E93;
+    }
+    .vip-box {
+      background-color: #f0f7ff;
+      border: 2px solid #007AFF;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 24px 0;
       text-align: center;
     }
-    .cta-text {
-      font-size: 16px;
+    .vip-title {
+      font-size: 14px;
+      color: #007AFF;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
       margin-bottom: 8px;
     }
-    .social-link {
+    .vip-text {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1C1C1E;
+    }
+    .timeline {
+      background-color: #f5f5f5;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 24px 0;
+    }
+    .timeline-title {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: #1C1C1E;
+    }
+    .timeline-item {
+      margin-bottom: 10px;
+      font-size: 14px;
+      padding-left: 20px;
+      position: relative;
+    }
+    .timeline-item:before {
+      content: "→";
+      position: absolute;
+      left: 0;
       color: #007AFF;
-      text-decoration: none;
-      font-weight: 500;
+      font-weight: 700;
     }
     .signature {
       margin-top: 32px;
@@ -89,6 +153,12 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       .content {
         padding: 20px 20px 40px;
       }
+      .greeting {
+        font-size: 18px;
+      }
+      .benefit-item {
+        padding: 10px;
+      }
     }
   </style>
 </head>
@@ -99,53 +169,76 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
     </div>
 
     <div class="content">
+      <div class="tagline">🎉 Founding Member Secured</div>
       <div class="greeting">Hi ${firstName},</div>
 
       <div class="body-text">
-        Welcome to the GymVid Beta Group!
+        You just locked in a spot in the future of strength training. Welcome to the GymVid founding member club!
       </div>
 
       <div class="body-text">
-        You're officially on the list for early access to GymVid – the AI-powered fitness tracking app that automatically logs your workouts from video.
+        While most lifters waste <span class="highlight">5+ minutes manually logging workouts</span>, GymVid users will film their sets and let AI handle the rest. No more endless tapping. No more guessing your form. Just <span class="highlight">better training, faster progress</span>.
       </div>
 
-      <div class="benefits-title">Here's what you get as a VIP beta member:</div>
-
-      <div class="benefit-item">
-        <span class="checkmark">✓</span>
-        <span>Early access to the app before public launch</span>
-      </div>
-      <div class="benefit-item">
-        <span class="checkmark">✓</span>
-        <span>Exclusive VIP discount (details coming soon)</span>
-      </div>
-      <div class="benefit-item">
-        <span class="checkmark">✓</span>
-        <span>Direct input on features and improvements</span>
-      </div>
-      <div class="benefit-item">
-        <span class="checkmark">✓</span>
-        <span>Priority support from our team</span>
+      <div class="vip-box">
+        <div class="vip-title">Lifetime Founding Member Pricing</div>
+        <div class="vip-text">Lock in VIP pricing for life</div>
       </div>
 
-      <div class="body-text" style="margin-top: 24px;">
-        We're working hard to launch in Q1 2026. You'll be the first to know when we're ready!
+      <div class="benefits-title">What You Get as a Founding Member:</div>
+
+      <div class="benefit-item">
+        <span class="checkmark">⚡</span>
+        <div class="benefit-text">
+          <div class="benefit-title">Automatic Workout Logging</div>
+          <div class="benefit-desc">Film your set. AI logs exercise, reps, weight, form quality instantly.</div>
+        </div>
       </div>
 
-      <div class="cta">
-        <div class="cta-text">In the meantime, follow us on Instagram</div>
-        <a href="https://instagram.com/gymvidapp" class="social-link">@gymvidapp</a>
-        <div class="cta-text" style="margin-top: 4px;">for behind-the-scenes updates and sneak peeks.</div>
+      <div class="benefit-item">
+        <span class="checkmark">🎯</span>
+        <div class="benefit-text">
+          <div class="benefit-title">Real-Time AI Form Coaching</div>
+          <div class="benefit-desc">Get instant technique feedback on every lift to improve form & prevent injury.</div>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <span class="checkmark">🏆</span>
+        <div class="benefit-text">
+          <div class="benefit-title">Verified Competition</div>
+          <div class="benefit-desc">Compete against friends with video proof. No honor system. Real leaderboards.</div>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <span class="checkmark">📈</span>
+        <div class="benefit-text">
+          <div class="benefit-title">Build Your Training Brand</div>
+          <div class="benefit-desc">Share your progress & compete with a community of serious lifters.</div>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-title">What's Next:</div>
+        <div class="timeline-item"><strong>Q1 2026:</strong> App launches (you get early access)</div>
+        <div class="timeline-item"><strong>Day 1:</strong> You'll be among the first to experience the future of fitness</div>
+        <div class="timeline-item"><strong>Always:</strong> VIP pricing locked in for life</div>
+      </div>
+
+      <div class="body-text">
+        We're in final development and can't wait to put GymVid in your hands. You'll be the first to know the moment we're ready.
       </div>
 
       <div class="signature">
-        Stay strong,<br/>
-        The GymVid Team
+        Ready to stop logging and start training?<br/>
+        <br/>
+        Jamie & The GymVid Team
       </div>
     </div>
 
     <div class="footer">
-      You're receiving this because you joined the GymVid Beta Group<br/>
+      You're receiving this because you secured your founding member spot<br/>
       <a href="{{unsubscribe}}" class="footer-link">Unsubscribe</a>
     </div>
   </div>

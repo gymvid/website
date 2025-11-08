@@ -276,7 +276,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                       </p>
                     </div>
 
-                    <form onSubmit={handleSubmit} className="space-y-4 mb-2">
+                    <form onSubmit={handleSubmit} className="space-y-4 mb-3">
                       {/* First Name Input */}
                       <div>
                         <input
@@ -329,7 +329,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                     </form>
 
                     {/* Reassurance Text */}
-                    <div className="text-center mb-3">
+                    <div className="text-center mb-0">
                       <p className="text-xs text-gray-medium">
                         We'll send you beta access when it's ready.
                       </p>

@@ -48,7 +48,16 @@ export default function Home() {
       <section className="snap-section min-h-screen bg-white flex flex-col items-center justify-start md:justify-center px-4 pt-0 md:pt-0">
         <div className="flex flex-col items-center justify-center gap-3 md:gap-6 w-full max-w-2xl">
           {/* Video and Logo Container */}
-          <div className="relative w-full aspect-video md:h-[25vh] md:w-[50vw] flex items-center justify-center overflow-hidden">
+          <div className="relative w-full aspect-video md:h-[25vh] md:w-[50vw] flex items-center justify-center overflow-hidden bg-white">
+            {/* Background Image (shows after video ends) */}
+            <img
+              src="/images/logo/annimation/GymVidWelcomeAnimation-desktop.jpg"
+              alt="GymVid Logo"
+              className={`absolute inset-0 w-full h-full object-contain md:object-cover object-center md:object-top transition-opacity duration-500 ${
+                videoEnded ? "opacity-100" : "opacity-0"
+              }`}
+            />
+
             {/* Video Animation */}
             <video
               ref={videoRef}

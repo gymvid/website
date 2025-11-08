@@ -374,7 +374,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                   You're in!
                 </h3>
                 <p className="text-base text-gray-medium">
-                  Check your email to confirm and unlock your VIP benefits.
+                  We'll send you an email to confirm your spot & let you know as soon as the app is ready to launch!
                 </p>
               </div>
             )}

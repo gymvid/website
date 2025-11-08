@@ -43,9 +43,9 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="snap-section min-h-screen bg-white">
       {/* Section 1: Landing Page */}
-      <section className="min-h-screen bg-white flex flex-col items-center justify-center px-4 pb-4">
+      <section className="snap-section min-h-screen bg-white flex flex-col items-center justify-center px-4 pb-4">
         <div className="flex flex-col items-center justify-center gap-6 w-full max-w-2xl -mt-16">
           {/* Video and Logo Container */}
           <div className="relative w-full aspect-video md:h-[25vh] md:w-[50vw] flex items-center justify-center overflow-hidden">

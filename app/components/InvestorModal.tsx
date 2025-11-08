@@ -289,7 +289,7 @@ export default function InvestorModal({ isOpen, onClose }: InvestorModalProps) {
                         Where can we reach you?
                       </h2>
                       <p className="text-base text-gray-medium">
-                        We'll send you the pitch deck & let you know when our seed round goes live for investment!
+                        We'll send you the pitch deck & let you know when our seed round launches!
                       </p>
                     </div>
 

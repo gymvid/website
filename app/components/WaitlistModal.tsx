@@ -222,9 +222,6 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                       <h2 className="text-2xl font-bold text-gray-dark mb-2">
                         Which features excite you most about GymVid?
                       </h2>
-                      <p className="text-base text-gray-medium">
-                        Please select the things you're most interested in so we can prioritize what to build first and get it ready for you!
-                      </p>
                     </div>
 
                     <div className="space-y-3 mb-6">

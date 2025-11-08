@@ -164,7 +164,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                 {step === 1 ? (
                   /* Step 1: Initial Hook - Updated text */
                   <>
-                    <div className="text-center mb-6 pt-2">
+                    <div className="text-center mb-5 pt-2">
                       <h2 className="text-2xl font-bold text-gray-dark mb-4">
                         Tired of Wasting Hours Logging All Your Workouts?
                       </h2>

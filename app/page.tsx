@@ -169,16 +169,26 @@ export default function Home() {
 
           {/* App Store Coming Soon Badges - Mobile Only */}
           <div className={`flex md:hidden flex-row items-center justify-center gap-4 mt-6 transition-all duration-700 ${\n            showButtons\n              ? "opacity-100 translate-y-0"\n              : "opacity-0 translate-y-8"\n          }`}>
-            <img
-              src="https://www.gymvid.com/images/logo/coming-soon-app.png"
-              alt="Coming Soon on App Store"
-              className="h-12 object-contain"
-            />
-            <img
-              src="https://www.gymvid.com/images/logo/coming-soon-play.png"
-              alt="Coming Soon on Google Play"
-              className="h-12 object-contain"
-            />
+            <button
+              onClick={() => setShowWaitlistModal(true)}
+              className="cursor-pointer hover:opacity-80 transition-opacity"
+            >
+              <img
+                src="https://www.gymvid.com/images/logo/coming-soon-app.png"
+                alt="Coming Soon on App Store"
+                className="h-12 object-contain"
+              />
+            </button>
+            <button
+              onClick={() => setShowWaitlistModal(true)}
+              className="cursor-pointer hover:opacity-80 transition-opacity"
+            >
+              <img
+                src="https://www.gymvid.com/images/logo/coming-soon-play.png"
+                alt="Coming Soon on Google Play"
+                className="h-12 object-contain"
+              />
+            </button>
           </div>
 
         </div>

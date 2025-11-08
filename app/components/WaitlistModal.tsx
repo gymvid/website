@@ -158,13 +158,13 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
           )}
 
           {/* Content */}
-          <div className="px-6 pb-8 pt-6">
+          <div className="px-6 pb-8 pt-3">
             {!isSuccess ? (
               <>
                 {step === 1 ? (
                   /* Step 1: Initial Hook - Updated text */
                   <>
-                    <div className="text-center mb-6 pt-3">
+                    <div className="text-center mb-6 pt-0">
                       <h2 className="text-2xl font-bold text-gray-dark mb-4">
                         Tired of Wasting Hours Logging All Your Workouts?
                       </h2>
@@ -218,7 +218,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                 ) : step === 2 ? (
                   /* Step 2: Interest Selection */
                   <>
-                    <div className="text-center mb-3 pt-3">
+                    <div className="text-center mb-3 pt-0">
                       <h2 className="text-2xl font-bold text-gray-dark mb-0">
                         Which features excite you most about GymVid?
                       </h2>
@@ -267,7 +267,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                 ) : (
                   /* Step 3: Contact Details */
                   <>
-                    <div className="text-center mb-6 pt-3">
+                    <div className="text-center mb-6 pt-0">
                       <h2 className="text-2xl font-bold text-gray-dark mb-2">
                         You're Almost In!
                       </h2>

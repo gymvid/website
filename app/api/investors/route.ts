@@ -85,10 +85,10 @@ export async function POST(request: Request) {
       // Continue to send email even if list add fails
     }
 
-    // Step 2: Send confirmation email
+    // Step 2: Send confirmation email to investor
     const htmlContent = getInvestorConfirmationEmail(firstName);
 
-    const emailResponse = await fetch("https://api.sendgrid.com/v3/mail/send", {
+    const confirmationEmailResponse = await fetch("https://api.sendgrid.com/v3/mail/send", {
       method: "POST",
       headers: {
         Authorization: `Bearer ${SENDGRID_API_KEY}`,
@@ -114,10 +114,107 @@ export async function POST(request: Request) {
       }),
     });
 
-    if (!emailResponse.ok) {
-      const emailError = await emailResponse.text();
-      console.error("SendGrid email error:", emailError);
+    if (!confirmationEmailResponse.ok) {
+      const emailError = await confirmationEmailResponse.text();
+      console.error("SendGrid confirmation email error:", emailError);
       throw new Error("Failed to send confirmation email");
+    }
+
+    // Step 3: Send notification email to you
+    const investorTypeLabels: { [key: string]: string } = {
+      vc_fund: "Venture Capital Fund",
+      angel: "Angel Investor",
+      strategic_partner: "Strategic Partner",
+      influencer: "Fitness Influencer",
+    };
+
+    const notificationHtml = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background-color: #f5f5f5;">
+  <table role="presentation" style="width: 100%; border-collapse: collapse;">
+    <tr>
+      <td align="center" style="padding: 40px 0;">
+        <table role="presentation" style="width: 600px; max-width: 90%; border-collapse: collapse; background-color: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+
+          <!-- Header -->
+          <tr>
+            <td style="padding: 40px 40px 20px;">
+              <h1 style="margin: 0 0 8px; font-size: 24px; font-weight: 700; color: #1C1C1E;">
+                New Investor Inquiry
+              </h1>
+              <p style="margin: 0; font-size: 14px; color: #8E8E93;">
+                ${new Date().toLocaleString('en-US', { dateStyle: 'full', timeStyle: 'short' })}
+              </p>
+            </td>
+          </tr>
+
+          <!-- Details -->
+          <tr>
+            <td style="padding: 0 40px 40px;">
+              <div style="background-color: #F2F2F7; padding: 24px; border-radius: 12px;">
+                <p style="margin: 0 0 12px; font-size: 16px; color: #1C1C1E;">
+                  <strong>Name:</strong> ${firstName} ${lastName}
+                </p>
+                <p style="margin: 0 0 12px; font-size: 16px; color: #1C1C1E;">
+                  <strong>Email:</strong> <a href="mailto:${email}" style="color: #007AFF; text-decoration: none;">${email}</a>
+                </p>
+                <p style="margin: 0 0 12px; font-size: 16px; color: #1C1C1E;">
+                  <strong>Investor Type:</strong> ${investorTypeLabels[investorType] || investorType}
+                </p>
+                <p style="margin: 0; font-size: 16px; color: #1C1C1E;">
+                  <strong>Investment Range:</strong> ${investmentRange || "Not specified"}
+                </p>
+              </div>
+
+              <p style="margin: 24px 0 0; font-size: 14px; color: #8E8E93;">
+                The investor has been added to your SendGrid "Investors" list and received a confirmation email.
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+    `.trim();
+
+    const notificationEmailResponse = await fetch("https://api.sendgrid.com/v3/mail/send", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${SENDGRID_API_KEY}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        personalizations: [
+          {
+            to: [{ email: "jamienbisset@gmail.com" }],
+            subject: `New Investor Inquiry: ${firstName} ${lastName} (${investorTypeLabels[investorType] || investorType})`,
+          },
+        ],
+        from: {
+          email: "hello@gymvid.com",
+          name: "GymVid Notifications",
+        },
+        content: [
+          {
+            type: "text/html",
+            value: notificationHtml,
+          },
+        ],
+      }),
+    });
+
+    if (!notificationEmailResponse.ok) {
+      const notificationError = await notificationEmailResponse.text();
+      console.error("SendGrid notification email error:", notificationError);
+      // Don't throw error - investor already got their confirmation
     }
 
     return NextResponse.json({

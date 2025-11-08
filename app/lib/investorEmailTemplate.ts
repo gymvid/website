@@ -16,8 +16,8 @@ export function getInvestorConfirmationEmail(firstName: string): string {
           <!-- Header -->
           <tr>
             <td style="padding: 40px 40px 20px; text-align: center;">
-              <h1 style="margin: 0; font-size: 28px; font-weight: 600; color: #1C1C1E;">
-                GymVid
+              <h1 style="margin: 0; font-size: 32px; font-weight: 700; color: #1C1C1E; letter-spacing: -0.5px;">
+                Gym<span style="color: #007AFF;">Vid</span>
               </h1>
             </td>
           </tr>
@@ -30,21 +30,66 @@ export function getInvestorConfirmationEmail(firstName: string): string {
               </h2>
 
               <p style="margin: 0 0 16px; font-size: 16px; line-height: 1.6; color: #1C1C1E;">
-                We're excited to share GymVid's investment opportunity with you.
+                We're thrilled to connect with you about GymVid's investment opportunity.
               </p>
 
               <p style="margin: 0 0 16px; font-size: 16px; line-height: 1.6; color: #1C1C1E;">
-                We're building the <strong>Strava for strength training</strong> — combining AI-powered workout logging, real-time form analysis, and verified competitive leaderboards into a single platform that already has proven distribution through Stephanie Sanzo's 3M+ follower network.
+                <strong>We're building the Strava for strength training.</strong>
+              </p>
+
+              <p style="margin: 0 0 16px; font-size: 16px; line-height: 1.6; color: #1C1C1E;">
+                Strava revolutionized how millions of runners and cyclists track their workouts and connect with like-minded people. We're building the same type of platform but for gym goers.
+              </p>
+
+              <p style="margin: 0 0 16px; font-size: 16px; line-height: 1.6; color: #1C1C1E;">
+                While runners use GPS tracking and Strava, lifters use video — but they don't have any technology to leverage the footage. We're not asking people to start filming their workouts, <strong>they already are!</strong>
+              </p>
+
+              <p style="margin: 0 0 16px; font-size: 16px; line-height: 1.6; color: #1C1C1E;">
+                50+ million Instagram posts tagged with #formcheck proves this behavior already exists at scale. So we're creating the world's first AI-powered video analysis platform for strength training.
               </p>
 
               <p style="margin: 0 0 24px; font-size: 16px; line-height: 1.6; color: #1C1C1E;">
-                Our team will reach out within the next few days with our pitch deck, product roadmap, and investment details.
+                We're transforming wasted footage into automatic logging, verified PRs, and competitive leaderboards in a native social experience — all powered by AI that provides real-time form coaching at a fraction of the cost of personal training.
               </p>
 
-              <!-- CTA Box -->
-              <table role="presentation" style="width: 100%; border-collapse: collapse; background-color: #f9fafb; border-radius: 12px; padding: 20px; margin-bottom: 24px;">
+              <!-- What's Next Box -->
+              <table role="presentation" style="width: 100%; border-collapse: collapse; background-color: #f0f7ff; border-radius: 12px; margin-bottom: 24px;">
                 <tr>
-                  <td>
+                  <td style="padding: 20px; border-radius: 12px;">
+                    <h3 style="margin: 0 0 12px; font-size: 16px; font-weight: 600; color: #1C1C1E;">
+                      What's Next:
+                    </h3>
+                    <ul style="margin: 0; padding-left: 20px; font-size: 15px; line-height: 1.8; color: #1C1C1E;">
+                      <li style="margin-bottom: 8px;"><strong>More Information:</strong> We'll send you more details about the opportunity soon</li>
+                      <li style="margin-bottom: 8px;"><strong>Seed Round:</strong> You'll be notified when our seed round goes live for investment</li>
+                      <li><strong>Product Updates:</strong> Stay in the loop as we hit major milestones</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Key Highlights -->
+              <table role="presentation" style="width: 100%; border-collapse: collapse; background-color: #f9fafb; border-radius: 12px; margin-bottom: 24px;">
+                <tr>
+                  <td style="padding: 20px; border-radius: 12px;">
+                    <h3 style="margin: 0 0 12px; font-size: 16px; font-weight: 600; color: #1C1C1E;">
+                      Why GymVid Will Win:
+                    </h3>
+                    <ul style="margin: 0; padding-left: 20px; font-size: 14px; line-height: 1.8; color: #1C1C1E;">
+                      <li style="margin-bottom: 8px;"><strong>Proven Distribution:</strong> Stephanie Sanzo's 3M+ follower network guarantees Day 1 users</li>
+                      <li style="margin-bottom: 8px;"><strong>Video-First Moat:</strong> Competitors need 18-24 months to pivot from text to video architecture</li>
+                      <li style="margin-bottom: 8px;"><strong>Multiple Revenue Streams:</strong> Subscriptions, creator platform, gym partnerships, video ads</li>
+                      <li><strong>Validated Market:</strong> Competitors generate $183M+ ARR combined; Ladder raised $105M, Sweat exited for $200M</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- CTA Box -->
+              <table role="presentation" style="width: 100%; border-collapse: collapse; background-color: #f9fafb; border-radius: 12px; margin-bottom: 24px;">
+                <tr>
+                  <td style="padding: 20px; border-radius: 12px;">
                     <p style="margin: 0 0 12px; font-size: 14px; font-weight: 600; color: #1C1C1E;">
                       In the meantime:
                     </p>

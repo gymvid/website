@@ -178,7 +178,7 @@ export default function Home() {
               className="cursor-pointer hover:opacity-80 transition-opacity"
             >
               <img
-                src="https://www.gymvid.com/images/logo/coming-soon-app.png"
+                src="/images/logo/coming-soon-app.png"
                 alt="Coming Soon on App Store"
                 className="h-12 object-contain"
               />
@@ -188,7 +188,7 @@ export default function Home() {
               className="cursor-pointer hover:opacity-80 transition-opacity"
             >
               <img
-                src="https://www.gymvid.com/images/logo/coming-soon-play.png"
+                src="/images/logo/coming-soon-play.png"
                 alt="Coming Soon on Google Play"
                 className="h-12 object-contain"
               />

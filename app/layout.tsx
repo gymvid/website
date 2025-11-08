@@ -129,6 +129,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${dmSans.variable} bg-white`}>
       <head>
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="color-scheme" content="light" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

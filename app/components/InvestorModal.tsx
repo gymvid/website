@@ -179,7 +179,7 @@ export default function InvestorModal({ isOpen, onClose }: InvestorModalProps) {
                   /* Step 1: Initial Interest */
                   <>
                     <div className="text-center mb-6 pt-3">
-                      <h2 className="text-2xl font-semibold text-gray-dark mb-4">
+                      <h2 className="text-2xl font-bold text-gray-dark mb-4">
                         Invest in the Strava for Strength Training
                       </h2>
                       <div className="text-base text-gray-medium leading-relaxed space-y-3">
@@ -215,7 +215,7 @@ export default function InvestorModal({ isOpen, onClose }: InvestorModalProps) {
                   /* Step 2: Investor Type Selection */
                   <>
                     <div className="text-center mb-6 pt-3">
-                      <h2 className="text-2xl font-semibold text-gray-dark mb-2">
+                      <h2 className="text-2xl font-bold text-gray-dark mb-2">
                         Thank you for your interest!
                       </h2>
                       <p className="text-base text-gray-medium">
@@ -269,7 +269,7 @@ export default function InvestorModal({ isOpen, onClose }: InvestorModalProps) {
                   /* Step 3: Contact Details */
                   <>
                     <div className="text-center mb-6 pt-3">
-                      <h2 className="text-2xl font-semibold text-gray-dark mb-2">
+                      <h2 className="text-2xl font-bold text-gray-dark mb-2">
                         Where can we reach you?
                       </h2>
                       <p className="text-base text-gray-medium">
@@ -397,7 +397,7 @@ export default function InvestorModal({ isOpen, onClose }: InvestorModalProps) {
                     </svg>
                   </div>
                 </div>
-                <h3 className="text-2xl font-semibold text-gray-dark mb-2">
+                <h3 className="text-2xl font-bold text-gray-dark mb-2">
                   Thank you for your interest!
                 </h3>
                 <p className="text-base text-gray-medium">

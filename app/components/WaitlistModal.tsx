@@ -272,7 +272,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                         You're Almost In!
                       </h2>
                       <p className="text-base text-gray-medium">
-                        Secure your founding member spot to get early access & VIP pricing locked in for life.
+                        Secure your founding member spot to get early access & VIP pricing for life.
                       </p>
                     </div>
 

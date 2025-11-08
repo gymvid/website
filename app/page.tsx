@@ -45,8 +45,8 @@ export default function Home() {
   return (
     <div className="bg-white">
       {/* Section 1: Landing Page */}
-      <section className="snap-section h-screen bg-white grid place-items-center px-4">
-        <div className="flex flex-col items-center justify-center gap-3 md:gap-6 w-full max-w-2xl">
+      <section className="snap-section h-screen bg-white grid place-items-center px-4 py-0">
+        <div className="flex flex-col items-center justify-center gap-2 md:gap-6 w-full max-w-2xl">
           {/* Video and Logo Container */}
           <div className="relative w-full aspect-video md:h-[25vh] md:w-[50vw] flex items-center justify-center overflow-hidden bg-white">
             {/* Background Image (shows after video ends) */}
@@ -170,7 +170,7 @@ export default function Home() {
           </div>
 
           {/* App Store Coming Soon Badges - Mobile Only */}
-          <div className={`flex md:hidden flex-row items-center justify-center gap-4 mt-6 pb-16 transition-all duration-700 ${
+          <div className={`flex md:hidden flex-row items-center justify-center gap-4 mt-6 pb-40 transition-all duration-700 ${
             showButtons
               ? "opacity-100 translate-y-0"
               : "opacity-0 translate-y-8"

@@ -162,7 +162,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
             {/* Desktop Close Button */}
             <button
               onClick={handleClose}
-              className="hidden md:flex absolute -top-12 right-0 p-2 hover:bg-gray-light rounded-full transition-colors"
+              className="hidden md:flex absolute top-4 right-4 p-2 hover:bg-gray-light rounded-full transition-colors"
               aria-label="Close"
             >
               <X className="w-5 h-5 text-gray-dark" />
@@ -172,7 +172,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
             {(step === 2 || step === 3) && !isSuccess && (
               <button
                 onClick={handleBack}
-                className="hidden md:flex absolute -top-12 left-0 p-2 hover:bg-gray-light rounded-full transition-colors"
+                className="hidden md:flex absolute top-4 left-4 p-2 hover:bg-gray-light rounded-full transition-colors"
                 aria-label="Back"
               >
                 <ChevronLeft className="w-5 h-5 text-gray-dark" />

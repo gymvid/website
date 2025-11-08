@@ -339,7 +339,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                     </div>
 
                     {/* Privacy Policy Link */}
-                    <div className="text-center">
+                    <div className="text-center -mb-2">
                       <a
                         href="/privacy-policy"
                         target="_blank"

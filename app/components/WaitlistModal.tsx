@@ -137,30 +137,30 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
             <div className="w-12 h-1 bg-gray-light rounded-full" />
           </div>
 
-          {/* Close Button */}
-          <button
-            onClick={handleClose}
-            className="absolute top-4 right-4 p-2 hover:bg-gray-light rounded-full transition-colors"
-            aria-label="Close"
-          >
-            <X className="w-5 h-5 text-gray-dark" />
-          </button>
-
-          {/* Back Button - Only show on step 2 and 3 */}
-          {(step === 2 || step === 3) && !isSuccess && (
-            <button
-              onClick={handleBack}
-              className="absolute top-4 left-4 p-2 hover:bg-gray-light rounded-full transition-colors"
-              aria-label="Back"
-            >
-              <ChevronLeft className="w-5 h-5 text-gray-dark" />
-            </button>
-          )}
-
           {/* Content */}
           <div className="px-6 pb-8 pt-5">
             {!isSuccess ? (
               <>
+                {/* Header with Close and Back buttons (Desktop only) */}
+                <div className="hidden md:flex justify-between items-center mb-6 -mx-6 px-6 pb-4 border-b border-gray-light">
+                  <button
+                    onClick={handleBack}
+                    className={`p-2 hover:bg-gray-light rounded-full transition-colors ${
+                      (step === 2 || step === 3) ? "opacity-100" : "opacity-0 pointer-events-none"
+                    }`}
+                    aria-label="Back"
+                  >
+                    <ChevronLeft className="w-5 h-5 text-gray-dark" />
+                  </button>
+                  <button
+                    onClick={handleClose}
+                    className="p-2 hover:bg-gray-light rounded-full transition-colors"
+                    aria-label="Close"
+                  >
+                    <X className="w-5 h-5 text-gray-dark" />
+                  </button>
+                </div>
+
                 {step === 1 ? (
                   /* Step 1: Initial Hook - Updated text */
                   <>

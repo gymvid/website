@@ -218,7 +218,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                 ) : step === 2 ? (
                   /* Step 2: Interest Selection */
                   <>
-                    <div className="text-center mb-6 pt-3">
+                    <div className="text-center mb-3 pt-3">
                       <h2 className="text-2xl font-bold text-gray-dark mb-0">
                         Which features excite you most about GymVid?
                       </h2>

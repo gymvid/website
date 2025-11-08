@@ -329,7 +329,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                     </form>
 
                     {/* Reassurance Text */}
-                    <div className="text-center mb-0">
+                    <div className="text-center mb-0 -mb-2">
                       <p className="text-xs text-gray-medium">
                         We'll send you beta access when it's ready.
                       </p>

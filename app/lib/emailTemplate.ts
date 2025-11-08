@@ -165,7 +165,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
 <body>
   <div class="container">
     <div class="header">
-      <img src="https://gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" class="logo" />
+      <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" class="logo" />
     </div>
 
     <div class="content">

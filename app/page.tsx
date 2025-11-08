@@ -168,7 +168,7 @@ export default function Home() {
           </div>
 
           {/* App Store Coming Soon Badges - Mobile Only */}
-          <div className="flex md:hidden flex-row items-center justify-center gap-4 mt-6">
+          <div className={`flex md:hidden flex-row items-center justify-center gap-4 mt-6 transition-all duration-700 ${\n            showButtons\n              ? "opacity-100 translate-y-0"\n              : "opacity-0 translate-y-8"\n          }`}>
             <img
               src="https://www.gymvid.com/images/logo/coming-soon-app.png"
               alt="Coming Soon on App Store"

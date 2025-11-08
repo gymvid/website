@@ -13,16 +13,27 @@ body {
   background: #ffffff !important;
   width: 100%;
   height: 100%;
-  scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
   overflow-x: hidden;
+  /* Mobile snap scroll - mandatory snapping */
+  scroll-snap-type: y mandatory;
 }
 
 /* Snap scroll sections */
 .snap-section {
   scroll-snap-align: center;
   scroll-snap-stop: always;
-  min-height: 100vh;
+}
+
+/* Desktop - use proximity for more natural scrolling */
+@media (min-width: 768px) {
+  html,
+  body {
+    scroll-snap-type: y proximity;
+  }
+
+  .snap-section {
+    scroll-snap-stop: normal;
+  }
 }
 
 /* Custom checkbox styling to match design system */

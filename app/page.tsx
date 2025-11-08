@@ -172,12 +172,12 @@ export default function Home() {
             <img
               src="/images/logo/coming-soon-app.png"
               alt="Coming Soon on App Store"
-              className="h-12 md:h-16 object-contain"
+              className="h-12 md:h-11 object-contain"
             />
             <img
               src="/images/logo/coming-soon-play.png"
               alt="Coming Soon on Google Play"
-              className="h-12 md:h-16 object-contain"
+              className="h-12 md:h-11 object-contain"
             />
           </div>
 

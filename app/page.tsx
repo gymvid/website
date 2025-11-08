@@ -167,17 +167,17 @@ export default function Home() {
             </button>
           </div>
 
-          {/* App Store Coming Soon Badges */}
-          <div className="flex flex-row items-center justify-center gap-4 mt-6">
+          {/* App Store Coming Soon Badges - Mobile Only */}
+          <div className="flex md:hidden flex-row items-center justify-center gap-4 mt-6">
             <img
-              src="/images/logo/coming-soon-app.png"
+              src="https://www.gymvid.com/images/logo/coming-soon-app.png"
               alt="Coming Soon on App Store"
-              className="h-12 md:h-11 object-contain"
+              className="h-12 object-contain"
             />
             <img
-              src="/images/logo/coming-soon-play.png"
+              src="https://www.gymvid.com/images/logo/coming-soon-play.png"
               alt="Coming Soon on Google Play"
-              className="h-12 md:h-11 object-contain"
+              className="h-12 object-contain"
             />
           </div>
 

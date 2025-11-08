@@ -199,7 +199,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                           </li>
                         </ul>
 
-                        <p><span className="font-semibold">Plus:</span> You'll be able to share your PRs & compete against your friends!</p>
+                        <p><span className="font-semibold">Plus:</span> You'll be able to share your vids, compete against friends & build a following!</p>
 
                         <p className="font-semibold text-gray-dark">Join Now for early access & VIP pricing!</p>
                       </div>

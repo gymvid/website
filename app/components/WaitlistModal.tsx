@@ -219,7 +219,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                           </li>
                         </ul>
 
-                        <p>Within GymVid, you'll also be able to share your vids, climb leaderboard & grow a following!</p>
+                        <p>Within GymVid, you'll also be able to share vids, climb leaderboard & grow a following!</p>
 
                         <p className="font-semibold text-gray-dark">Join Now for early access & VIP pricing!</p>
                       </div>

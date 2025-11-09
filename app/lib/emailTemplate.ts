@@ -193,7 +193,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
         But as someone who's spent the last 15 years working in gyms - I'm confident in saying this 👊
       </div>
 
-      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
+      <div style="border-top: 1px solid #E5E5EA; margin: 20px 0; height: 0;"></div>
 
       <div class="body-text" style="margin-top: 0;">
         <strong>Here's the problems I've observed over the years...</strong>

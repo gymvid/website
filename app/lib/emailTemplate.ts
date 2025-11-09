@@ -166,7 +166,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
   <div class="container">
     <div class="header">
       <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" class="logo" />
-      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
+      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0 0 0;" />
     </div>
 
     <div class="content">
@@ -253,7 +253,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
         <strong>GymVid</strong>
       </div>
 
-      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
+      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0 0 0;" />
     </div>
 
     <div class="footer">

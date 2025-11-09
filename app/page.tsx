@@ -177,7 +177,7 @@ export default function Home() {
           }`}>
             <button
               onClick={() => setShowWaitlistModal(true)}
-              className="cursor-pointer hover:opacity-80 transition-opacity shadow-medium rounded-lg border border-gray-light hover:border-gray-medium"
+              className="cursor-pointer hover:opacity-80 transition-opacity shadow-medium rounded-lg border border-gray-light hover:border-gray-medium overflow-hidden"
             >
               <img
                 src="/images/logo/app-coming-soon-white.png"
@@ -187,7 +187,7 @@ export default function Home() {
             </button>
             <button
               onClick={() => setShowWaitlistModal(true)}
-              className="cursor-pointer hover:opacity-80 transition-opacity shadow-medium rounded-lg border border-gray-light hover:border-gray-medium"
+              className="cursor-pointer hover:opacity-80 transition-opacity shadow-medium rounded-lg border border-gray-light hover:border-gray-medium overflow-hidden"
             >
               <img
                 src="/images/logo/play-coming-soon-white.png"

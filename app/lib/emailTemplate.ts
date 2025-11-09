@@ -196,26 +196,26 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       <div style="border-top: 1px solid #E5E5EA; margin: 20px 0; height: 0;"></div>
 
       <div class="body-text" style="margin-top: 0;">
-        <strong>Here's the problems I've observed over the years...</strong>
+        <strong style="color: #007AFF;">These are the problems that I've observed over the years...</strong>
       </div>
 
       <div class="body-text" style="margin-top: 16px;">
-        <strong>1. Logging your lifts suck.</strong><br/>
+        <strong><span style="color: #007AFF;">1)</span> Logging your lifts suck.</strong><br/>
         There's nothing more demotivating than trying to record all your lifts. You're there to train - not perform data entry!
       </div>
 
       <div class="body-text">
-        <strong>2. Personal trainers are expensive.</strong><br/>
+        <strong><span style="color: #007AFF;">2)</span> Personal trainers are expensive.</strong><br/>
         I'm saying this as a PT myself! Getting coaching isn't feasible for everyone - but it should be.
       </div>
 
       <div class="body-text">
-        <strong>3. It's hard to stay motivated.</strong><br/>
+        <strong><span style="color: #007AFF;">3)</span> It's hard to stay motivated.</strong><br/>
         Training is often repetitive & can easily become stale - especially without a training partner or a supportive gym community.
       </div>
 
       <div class="body-text">
-        <strong>4. Training has become entertainment.</strong><br/>
+        <strong><span style="color: #007AFF;">4)</span> Training has become entertainment.</strong><br/>
         These days, social media rewards fast pace low value content. What happened to real, raw, training?
       </div>
 

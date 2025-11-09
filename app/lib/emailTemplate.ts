@@ -173,43 +173,49 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
     </div>
 
     <div class="content">
-      <div class="greeting">Hey ${firstName}</div>
+      <div class="greeting">Hey ${firstName},</div>
 
       <div class="body-text">
-        Welcome to the GymVid Founders Club 🎉<br/>
-        <br/>
-        You've just joined something that is about to change the way that you (and the world) lift forever!<br/>
-        <br/>
-        I know that's a bold claim...<br/>
-        <br/>
+        Welcome to the <span style="color: #007AFF; font-weight: 700;">GymVid Founders Club</span> 🎉
+      </div>
+
+      <div class="body-text">
+        You've just joined something that is about to change the way that you (and the world) lift forever!
+      </div>
+
+      <div class="body-text">
+        I know that's a bold claim...
+      </div>
+
+      <div class="body-text">
         But as someone who's spent the last 15 years working in gyms - I'm confident in saying this.
       </div>
 
-      <div class="body-text">
+      <div class="body-text" style="margin-top: 28px;">
         <strong>Here's the problems I've observed over the years...</strong>
       </div>
 
-      <div class="list-item">
+      <div class="body-text" style="margin-top: 16px;">
         <strong>1. Logging your lifts suck.</strong><br/>
         There's nothing more demotivating than trying to record all your lifts. You're there to train - not perform data entry!
       </div>
 
-      <div class="list-item">
+      <div class="body-text">
         <strong>2. Personal trainers are expensive.</strong><br/>
         I'm saying this as a PT myself! Getting coaching isn't feasible for everyone - but it should be.
       </div>
 
-      <div class="list-item">
+      <div class="body-text">
         <strong>3. It's hard to stay motivated.</strong><br/>
         Training is often repetitive & can easily become stale - especially without a training partner or a supportive gym community.
       </div>
 
-      <div class="list-item">
+      <div class="body-text">
         <strong>4. Training has become entertainment.</strong><br/>
         These days, social media rewards fast pace low value content. What happened to real, raw, training?
       </div>
 
-      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
+      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 28px 0;" />
 
       <div class="body-text">
         <strong>That's exactly why we built GymVid.</strong>
@@ -220,43 +226,57 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        Plus, you'll never question your form again. Get real feedback on every lift so you're constantly improving. Better form = better gains. That's how serious lifters level up.
+        Plus, you'll never question your form again. Get real feedback on every lift so you're constantly improving. <strong>Better form = better gains.</strong> That's how serious lifters level up.
       </div>
 
       <div class="body-text">
         And here's what's cool: you're already filming anyway. So why not share those videos with people who actually care about lifting? Real training partners. People who compete with video proof. No filters, no BS.
       </div>
 
-      <div class="body-text">
-        <strong>All of this will be possible within GymVid.</strong>
+      <div class="body-text" style="margin-top: 20px;">
+        <strong style="color: #007AFF;">All of this will be possible within GymVid.</strong>
       </div>
 
-      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
+      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 28px 0;" />
 
       <div class="section-title">As a Founder, here's what you get:</div>
 
-      <div class="list-item">✅ Early access when we launch (targeting Q1 2026)</div>
-      <div class="list-item">✅ Founding member pricing — you'll pay less than everyone else</div>
-      <div class="list-item">✅ Direct line to me — your feedback shapes what we build</div>
+      <div class="body-text" style="margin-bottom: 12px;">
+        ✅ Early access when we launch (targeting Q1 2026)
+      </div>
 
-      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
+      <div class="body-text" style="margin-bottom: 12px;">
+        ✅ Founding member pricing — you'll pay less than everyone else
+      </div>
+
+      <div class="body-text">
+        ✅ Direct line to me — your feedback shapes what we build
+      </div>
+
+      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 28px 0;" />
 
       <div class="section-title">Here's what I need from you:</div>
 
       <div class="body-text">
-        What's the #1 thing that frustrates you most about tracking workouts right now?
+        What's the <strong>#1 thing that frustrates you most</strong> about tracking workouts right now?
       </div>
 
       <div class="body-text">
         Reply and tell me. I'm using founder feedback to prioritize features.
       </div>
 
-      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
+      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 28px 0;" />
 
       <div class="body-text">
-        We're in the final stages of development now. I'll keep you updated as we hit milestones.<br/>
-        <br/>
+        We're in the final stages of development now. I'll keep you updated as we hit milestones.
+      </div>
+
+      <div class="body-text">
         Can't wait to build this with you.
+      </div>
+
+      <div style="text-align: center; margin: 32px 0;">
+        <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" style="max-width: 150px; height: auto;" />
       </div>
 
       <div class="signature">
@@ -264,11 +284,11 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
         Founder & CEO, GymVid
       </div>
 
-      <div class="body-text" style="font-size: 14px; margin-top: 24px;">
-        <strong>P.S.</strong> I'm selecting a small group for beta testing before launch. If you want early access to test features and give feedback, reply with "BETA" and let me know.
+      <div class="body-text" style="margin-top: 28px;">
+        <strong>P.S.</strong> I'm selecting a small group for beta testing before launch. If you want early access to test features and give feedback, reply with <span style="color: #007AFF; font-weight: 600;">"BETA"</span> and let me know.
       </div>
 
-      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0 0 0;" />
+      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 28px 0 0 0;" />
     </div>
 
     <div class="footer">

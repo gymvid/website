@@ -176,7 +176,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       <div class="greeting">Hey ${firstName},</div>
 
       <div class="body-text">
-        Welcome to the <span style="color: #007AFF; font-weight: 700;">GymVid Founders Club</span> 🎉
+        Welcome to the <span style="color: #007AFF; font-weight: 700;">GymVid Founders Club!</span>
       </div>
 
       <div class="body-text">
@@ -191,7 +191,9 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
         But as someone who's spent the last 15 years working in gyms - I'm confident in saying this.
       </div>
 
-      <div class="body-text" style="margin-top: 28px;">
+      <div style="height: 20px;"></div>
+
+      <div class="body-text" style="margin-top: 0;">
         <strong>Here's the problems I've observed over the years...</strong>
       </div>
 
@@ -239,7 +241,9 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
 
       <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 28px 0;" />
 
-      <div class="section-title">As a Founder, here's what you get:</div>
+      <div class="body-text" style="font-weight: 700; margin-bottom: 16px;">
+        As a Founder, here's what you get:
+      </div>
 
       <div class="body-text" style="margin-bottom: 12px;">
         ✅ Early access when we launch (targeting Q1 2026)
@@ -255,10 +259,12 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
 
       <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 28px 0;" />
 
-      <div class="section-title">Here's what I need from you:</div>
+      <div class="body-text" style="font-weight: 700; color: #007AFF; margin-bottom: 16px;">
+        Here's what I need from you:
+      </div>
 
       <div class="body-text">
-        What's the <strong>#1 thing that frustrates you most</strong> about tracking workouts right now?
+        What's the #1 thing that frustrates you most about tracking workouts right now?
       </div>
 
       <div class="body-text">
@@ -272,20 +278,17 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        Can't wait to build this with you.
-      </div>
-
-      <div style="text-align: center; margin: 32px 0;">
-        <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" style="max-width: 150px; height: auto;" />
+        Can't wait to build this with you! 🙌
       </div>
 
       <div class="signature">
         Jamie<br/>
-        Founder & CEO, GymVid
+        Founder & CEO, GymVid<br/>
+        <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" style="max-width: 100px; height: auto; margin-top: 12px;" />
       </div>
 
-      <div class="body-text" style="margin-top: 28px;">
-        <strong>P.S.</strong> I'm selecting a small group for beta testing before launch. If you want early access to test features and give feedback, reply with <span style="color: #007AFF; font-weight: 600;">"BETA"</span> and let me know.
+      <div class="body-text" style="margin-top: 28px; color: #8E8E93;">
+        <strong style="color: #1C1C1E;">P.S.</strong> I'm selecting a small group for beta testing before launch. If you want early access to test features and give feedback, reply with <span style="color: #007AFF; font-weight: 600;">"BETA"</span> and let me know.
       </div>
 
       <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 28px 0 0 0;" />

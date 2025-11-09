@@ -23,8 +23,6 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       padding: 40px 20px 20px;
     }
     .logo {
-      width: 200px;
-      height: 200px;
       display: block;
       margin: 0 auto;
     }
@@ -118,7 +116,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 <body>
   <div class="container">
     <div class="header">
-      <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" class="logo" />
+      <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" class="logo" style="width: 200px; height: auto;" />
       <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
     </div>
 

@@ -99,7 +99,7 @@ export async function POST(request: Request) {
         personalizations: [
           {
             to: [{ email }],
-            subject: "Welcome to the GymVid Beta Group! 🎉",
+            subject: "Welcome to the Founding Members Club 🤝 Your VIP perks are locked in!! 😎",
           },
         ],
         from: {

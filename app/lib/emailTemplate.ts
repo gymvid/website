@@ -119,7 +119,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       font-size: 16px;
       font-weight: 700;
       margin-bottom: 12px;
-      color: #1C1C1E;
+      color: #007AFF;
     }
     .timeline-item {
       margin-bottom: 10px;
@@ -169,65 +169,35 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
     </div>
 
     <div class="content">
-      <div class="tagline">🎉 Founding Member Secured</div>
-      <div class="greeting">Hi ${firstName},</div>
+      <div class="greeting">Hey ${firstName}</div>
 
       <div class="body-text">
-        You just locked in a spot in the future of strength training. Welcome to the GymVid founding member club!
+        You just secured your spot in what we beleive to be the future of strength training.<br/>
+        Welcome to the GymVid founders club!<br/>
+        <br/>
+        While people continue to go through the tedius task of manually logging their workouts...<br/>
+        GymVid users will film their sets and let AI handle the rest!<br/>
+        <br/>
+        No more endless tapping.<br/>
+        No more guessing your form.<br/>
+        <br/>
+        Just better training & faster progress.
       </div>
 
-      <div class="body-text">
-        While most lifters waste <span class="highlight">5+ minutes manually logging workouts</span>, GymVid users will film their sets and let AI handle the rest. No more endless tapping. No more guessing your form. Just <span class="highlight">better training, faster progress</span>.
-      </div>
+      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
 
-      <div class="vip-box">
-        <div class="vip-title">Lifetime Founding Member Pricing</div>
-        <div class="vip-text">Lock in VIP pricing for life</div>
-      </div>
-
-      <div class="benefits-title">What You Get as a Founding Member:</div>
-
-      <div class="benefit-item">
-        <span class="checkmark">⚡</span>
-        <div class="benefit-text">
-          <div class="benefit-title">Automatic Workout Logging</div>
-          <div class="benefit-desc">Film your set. AI logs exercise, reps, weight, form quality instantly.</div>
-        </div>
-      </div>
-
-      <div class="benefit-item">
-        <span class="checkmark">🎯</span>
-        <div class="benefit-text">
-          <div class="benefit-title">Real-Time AI Form Coaching</div>
-          <div class="benefit-desc">Get instant technique feedback on every lift to improve form & prevent injury.</div>
-        </div>
-      </div>
-
-      <div class="benefit-item">
-        <span class="checkmark">🏆</span>
-        <div class="benefit-text">
-          <div class="benefit-title">Verified Competition</div>
-          <div class="benefit-desc">Compete against friends with video proof. No honor system. Real leaderboards.</div>
-        </div>
-      </div>
-
-      <div class="benefit-item">
-        <span class="checkmark">📈</span>
-        <div class="benefit-text">
-          <div class="benefit-title">Build Your Training Brand</div>
-          <div class="benefit-desc">Share your progress & compete with a community of serious lifters.</div>
-        </div>
-      </div>
 
       <div class="timeline">
         <div class="timeline-title">What's Next:</div>
-        <div class="timeline-item"><strong>Q1 2026:</strong> App launches (you get early access)</div>
-        <div class="timeline-item"><strong>Day 1:</strong> You'll be among the first to experience the future of fitness</div>
-        <div class="timeline-item"><strong>Always:</strong> VIP pricing locked in for life</div>
+        <div class="timeline-item"><strong>2026: App launch (you'll get early access)</strong></div>
       </div>
 
       <div class="body-text">
-        We're in final development and can't wait to put GymVid in your hands. You'll be the first to know the moment we're ready.
+        We're in the final stages of development now and can't wait to put GymVid in your hands.<br/>
+        You'll be the first to know the moment we're ready!<br/>
+        In the meantime, please let us know if you have any questions.<br/>
+        Otherwise, more info to come soon!<br/>
+        Thanks so much for your support!!
       </div>
 
       <div class="signature">
@@ -238,7 +208,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
     </div>
 
     <div class="footer">
-      You're receiving this because you secured your founding member spot<br/>
+      You're receiving this because you joined our GymVid Founding Members Club.<br/>
       <a href="{{unsubscribe}}" class="footer-link">Unsubscribe</a>
     </div>
   </div>

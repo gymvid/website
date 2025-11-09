@@ -203,7 +203,7 @@ export async function POST(request: Request) {
       ],
       from: {
         email: "hello@gymvid.com",
-        name: "GymVid App",
+        name: "Jamie | GymVid",
       },
       content: [
         {

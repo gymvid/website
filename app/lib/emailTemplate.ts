@@ -27,7 +27,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       height: auto;
     }
     .content {
-      padding: 20px 40px 40px;
+      padding: 20px 40px 0;
       color: #1C1C1E;
       line-height: 1.6;
     }
@@ -166,6 +166,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
   <div class="container">
     <div class="header">
       <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" class="logo" />
+      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
     </div>
 
     <div class="content">
@@ -181,13 +182,15 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
         GymVid users will film their sets and let AI handle the rest!<br/>
         <br/>
         No more endless tapping.<br/>
+        <br/>
         No more guessing your form.<br/>
+        <br/>
         <strong>Just better training & faster progress.</strong>
       </div>
 
       <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
 
-      <div class="benefits-title">What You Get as a Founding Member:</div>
+      <div class="benefits-title">What Makes GymVid Different:</div>
 
       <div class="benefit-item">
         <div class="checkmark">✨</div>
@@ -209,7 +212,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
         <div class="checkmark">🏆</div>
         <div class="benefit-text">
           <div class="benefit-title"><strong>Verified Competition</strong></div>
-          <div class="benefit-desc">Compete against friends with video proof. No honor system. Real leaderboards.</div>
+          <div class="benefit-desc">Compete against friends with video proof. Real leaderboards.</div>
         </div>
       </div>
 
@@ -217,7 +220,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
         <div class="checkmark">😎</div>
         <div class="benefit-text">
           <div class="benefit-title"><strong>Build Your Training Brand</strong></div>
-          <div class="benefit-desc">Share your progress & compete with a community of serious lifters.</div>
+          <div class="benefit-desc">Share your vids / workouts and build a following of serious lifters.</div>
         </div>
       </div>
 
@@ -229,6 +232,8 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
         <div class="timeline-item"><strong>Launch:</strong> You'll get notified and be among the first to experience the future of strength training</div>
         <div class="timeline-item"><strong>Always:</strong> VIP pricing locked in for life</div>
       </div>
+
+      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
 
       <div class="body-text">
         We're in the final stages of development now and can't wait to put GymVid in your hands.<br/>

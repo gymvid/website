@@ -172,44 +172,85 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       <div class="greeting">Hey ${firstName}</div>
 
       <div class="body-text">
-        You just secured your spot in what we beleive to be the future of strength training.<br/>
-        Welcome to the GymVid founders club!<br/>
+        You just secured your spot in what we believe to be the future of strength training.<br/>
         <br/>
-        While people continue to go through the tedius task of manually logging their workouts...<br/>
+        <strong>Welcome to the GymVid founders club!</strong><br/>
+        <br/>
+        While people continue to go through the tedious task of manually logging their workouts...<br/>
+        <br/>
         GymVid users will film their sets and let AI handle the rest!<br/>
         <br/>
         No more endless tapping.<br/>
         No more guessing your form.<br/>
-        <br/>
-        Just better training & faster progress.
+        <strong>Just better training & faster progress.</strong>
       </div>
 
       <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
 
+      <div class="benefits-title">What You Get as a Founding Member:</div>
+
+      <div class="benefit-item">
+        <div class="checkmark">✨</div>
+        <div class="benefit-text">
+          <div class="benefit-title"><strong>Automatic Workout Logging</strong></div>
+          <div class="benefit-desc">Film your set. AI logs exercise, reps, weight, form quality instantly.</div>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <div class="checkmark">💡</div>
+        <div class="benefit-text">
+          <div class="benefit-title"><strong>Real-Time AI Form Coaching</strong></div>
+          <div class="benefit-desc">Get instant technique feedback on every lift to improve form & prevent injury.</div>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <div class="checkmark">🏆</div>
+        <div class="benefit-text">
+          <div class="benefit-title"><strong>Verified Competition</strong></div>
+          <div class="benefit-desc">Compete against friends with video proof. No honor system. Real leaderboards.</div>
+        </div>
+      </div>
+
+      <div class="benefit-item">
+        <div class="checkmark">😎</div>
+        <div class="benefit-text">
+          <div class="benefit-title"><strong>Build Your Training Brand</strong></div>
+          <div class="benefit-desc">Share your progress & compete with a community of serious lifters.</div>
+        </div>
+      </div>
+
+      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
 
       <div class="timeline">
         <div class="timeline-title">What's Next:</div>
-        <div class="timeline-item"><strong>2026: App launch (you'll get early access)</strong></div>
+        <div class="timeline-item"><strong>2026: App launches (date TBC)</strong></div>
+        <div class="timeline-item"><strong>Launch: You'll get notified and be among the first to experience the future of strength training</strong></div>
+        <div class="timeline-item"><strong>Always: VIP pricing locked in for life</strong></div>
       </div>
 
       <div class="body-text">
         We're in the final stages of development now and can't wait to put GymVid in your hands.<br/>
+        <br/>
         You'll be the first to know the moment we're ready!<br/>
+        <br/>
         In the meantime, please let us know if you have any questions.<br/>
+        <br/>
         Otherwise, more info to come soon!<br/>
+        <br/>
         Thanks so much for your support!!
       </div>
 
       <div class="signature">
         Ready to stop logging and start training?<br/>
         <br/>
-        Jamie & The GymVid Team
+        <strong>Jamie & The GymVid Team</strong>
       </div>
     </div>
 
     <div class="footer">
-      You're receiving this because you joined our GymVid Founding Members Club.<br/>
-      <a href="{{unsubscribe}}" class="footer-link">Unsubscribe</a>
+      You're receiving this because you joined our GymVid Founding Members Club - <a href="{{unsubscribe}}" class="footer-link">Unsubscribe</a>
     </div>
   </div>
 </body>

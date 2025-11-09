@@ -104,7 +104,7 @@ export default function Home() {
           </div>
 
           {/* Sub-heading for Mobile - Below tagline */}
-          <p className={`md:hidden text-center text-gray-medium font-normal text-[19px] -mt-4 transition-all duration-500 ${
+          <p className={`md:hidden text-center text-gray-medium font-normal text-[19px] mt-2 transition-all duration-500 ${
             showSubheading ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}>
             Film your workout. AI does the rest.
@@ -125,14 +125,14 @@ export default function Home() {
           </div>
 
           {/* Positioning Statement - Mobile */}
-          <p className={`md:hidden text-center text-primary font-semibold text-lg -mt-2 mb-4 transition-all duration-500 ${
+          <p className={`md:hidden text-center text-primary font-semibold text-lg mt-2 mb-4 transition-all duration-500 ${
             showSubheading ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}>
             Strava for strength training. Finally.
           </p>
 
           {/* Positioning Statement - Desktop */}
-          <p className={`hidden md:block text-center text-primary font-semibold text-xl -mt-12 mb-8 transition-all duration-500 ${
+          <p className={`hidden md:block text-center text-primary font-semibold text-xl mt-0 mb-8 transition-all duration-500 ${
             showSubheading ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}>
             Strava for strength training. Finally.

@@ -1,5 +1,12 @@
 import { NextResponse } from "next/server";
 import { getInvestorConfirmationEmail } from "@/app/lib/investorEmailTemplate";
+import { appendToInvestorsSheet } from "@/app/lib/googleSheets";
+
+function getClientIP(request: Request): string {
+  const forwarded = request.headers.get("x-forwarded-for");
+  const ip = forwarded ? forwarded.split(",")[0].trim() : "Unknown";
+  return ip;
+}
 
 export async function POST(request: Request) {
   try {
@@ -31,6 +38,9 @@ export async function POST(request: Request) {
         { status: 500 }
       );
     }
+
+    // Get client IP for tracking
+    const clientIP = getClientIP(request);
 
     // Step 1: Add contact to SendGrid "Investors" Marketing List
     try {
@@ -85,7 +95,22 @@ export async function POST(request: Request) {
       // Continue to send email even if list add fails
     }
 
-    // Step 2: Send confirmation email to investor
+    // Step 2: Append investor data to Google Sheets
+    try {
+      console.log("Step 2: Appending to Google Sheets...");
+      const timestamp = new Date().toISOString();
+      const rowData = [firstName, lastName, email, investorType, investmentRange || "not specified", timestamp, clientIP];
+      console.log("Row data to append:", JSON.stringify(rowData));
+
+      await appendToInvestorsSheet([rowData]);
+      console.log("Google Sheets append completed successfully");
+    } catch (sheetError) {
+      console.error("Error appending to Google Sheet:", sheetError);
+      // Continue to send email even if sheet fails
+    }
+
+    // Step 3: Send confirmation email to investor
+    console.log("Step 3: Sending confirmation email to investor...");
     const htmlContent = getInvestorConfirmationEmail(firstName);
 
     const confirmationEmailResponse = await fetch("https://api.sendgrid.com/v3/mail/send", {
@@ -120,7 +145,8 @@ export async function POST(request: Request) {
       throw new Error("Failed to send confirmation email");
     }
 
-    // Step 3: Send notification email to you
+    // Step 4: Send notification email to you
+    console.log("Step 4: Sending notification email to admin...");
     const investorTypeLabels: { [key: string]: string } = {
       vc_fund: "Venture Capital Fund",
       angel: "Angel Investor",

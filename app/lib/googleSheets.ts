@@ -91,3 +91,50 @@ export async function appendToGoogleSheet(
     throw error;
   }
 }
+
+export async function appendToInvestorsSheet(
+  rows: (string | number)[][]
+): Promise<void> {
+  try {
+    console.log("Starting Investors Google Sheets append operation...");
+    console.log("Rows to append:", JSON.stringify(rows));
+
+    const accessToken = await getAccessToken();
+    console.log("Access token obtained successfully");
+
+    const investorsSpreadsheetId = "1nKuk2s7jWZjzvT3ALfEHx1aFaiGgUdUU10insylk62s";
+    const investorsSheetName = "Sheet1";
+
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${investorsSpreadsheetId}/values/${investorsSheetName}!A:G:append?valueInputOption=USER_ENTERED`;
+    console.log("Investors Google Sheets API URL:", url);
+
+    const requestBody = {
+      values: rows,
+    };
+    console.log("Request body:", JSON.stringify(requestBody));
+
+    const response = await fetch(url, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(requestBody),
+    });
+
+    console.log("Investors Google Sheets API response status:", response.status);
+
+    if (!response.ok) {
+      const error = await response.text();
+      console.error("Investors Google Sheets API error response:", error);
+      throw new Error(`Google Sheets API error (${response.status}): ${error}`);
+    }
+
+    const responseData = await response.json();
+    console.log("Investors Google Sheets API success response:", JSON.stringify(responseData));
+    console.log("Investor data appended to Google Sheet successfully");
+  } catch (error) {
+    console.error("Error appending to Investors Google Sheet:", error);
+    throw error;
+  }
+}

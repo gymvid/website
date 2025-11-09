@@ -173,82 +173,99 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
     </div>
 
     <div class="content">
-      <div class="greeting">Hey ${firstName},</div>
+      <div class="greeting">Hey ${firstName}</div>
 
       <div class="body-text">
-        You just joined something most lifters won't get access to for years.
+        Welcome to the GymVid Founders Club 🎉<br/>
+        <br/>
+        You've just joined something that is about to change the way that you (and the world) lift forever!<br/>
+        <br/>
+        I know that's a bold claim...<br/>
+        <br/>
+        But as someone who's spent the last 15 years working in gyms - I'm confident in saying this.
       </div>
 
       <div class="body-text">
-        Right now, everyone else is still doing the same thing: film a set, check their form, then spend 5 minutes manually logging it all into an app. It's a waste of your time.
+        <strong>Here's the problems I've observed over the years...</strong>
       </div>
 
-      <div class="body-text">
-        As a GymVid founder, you skip all that. You're already filming anyway — we just made that footage actually work for you.
+      <div class="list-item">
+        <strong>1. Logging your lifts suck.</strong><br/>
+        There's nothing more demotivating than trying to record all your lifts. You're there to train - not perform data entry!
       </div>
 
-      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
-
-      <div class="benefits-title">Here's What You Get:</div>
-
-      <div class="benefit-item">
-        <div class="checkmark">✨</div>
-        <div class="benefit-text">
-          <div class="benefit-title"><strong>No More Logging</strong></div>
-          <div class="benefit-desc">Film your set. That's it. AI logs your exercise, reps, weight, and form — instantly.</div>
-        </div>
+      <div class="list-item">
+        <strong>2. Personal trainers are expensive.</strong><br/>
+        I'm saying this as a PT myself! Getting coaching isn't feasible for everyone - but it should be.
       </div>
 
-      <div class="benefit-item">
-        <div class="checkmark">💡</div>
-        <div class="benefit-text">
-          <div class="benefit-title"><strong>Stop Guessing Your Form</strong></div>
-          <div class="benefit-desc">Get real-time feedback on every lift. Fix bad habits before they become injuries. Train smarter, not just harder.</div>
-        </div>
+      <div class="list-item">
+        <strong>3. It's hard to stay motivated.</strong><br/>
+        Training is often repetitive & can easily become stale - especially without a training partner or a supportive gym community.
       </div>
 
-      <div class="benefit-item">
-        <div class="checkmark">🏆</div>
-        <div class="benefit-text">
-          <div class="benefit-title"><strong>Compete Against Friends (For Real)</strong></div>
-          <div class="benefit-desc">Challenge your crew with video proof. No claims, no BS — just who actually lifted what. Real leaderboards. Real winners.</div>
-        </div>
-      </div>
-
-      <div class="benefit-item">
-        <div class="checkmark">😎</div>
-        <div class="benefit-text">
-          <div class="benefit-title"><strong>Build a Following That Respects Your Work</strong></div>
-          <div class="benefit-desc">Share your progress and find your people. Stop training alone.</div>
-        </div>
-      </div>
-
-      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
-
-      <div class="timeline">
-        <div class="timeline-title">What's Next:</div>
-        <div class="timeline-item">→ <strong>More details on the opportunity</strong> are coming soon</div>
-        <div class="timeline-item">→ You'll be notified when we open our <strong>seed round</strong></div>
-        <div class="timeline-item">→ <strong>VIP pricing is locked in for you forever</strong></div>
+      <div class="list-item">
+        <strong>4. Training has become entertainment.</strong><br/>
+        These days, social media rewards fast pace low value content. What happened to real, raw, training?
       </div>
 
       <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
 
       <div class="body-text">
-        We're in final stages of development now. You'll be among the first to experience this when we launch in 2026.
+        <strong>That's exactly why we built GymVid.</strong>
       </div>
 
       <div class="body-text">
-        In the meantime, hit reply with any questions. We'd genuinely love to hear what excites you most about this.
+        You film your set. That's it. AI handles the logging instantly — no tapping, no data entry. Just training.
+      </div>
+
+      <div class="body-text">
+        Plus, you'll never question your form again. Get real feedback on every lift so you're constantly improving. Better form = better gains. That's how serious lifters level up.
+      </div>
+
+      <div class="body-text">
+        And here's what's cool: you're already filming anyway. So why not share those videos with people who actually care about lifting? Real training partners. People who compete with video proof. No filters, no BS.
+      </div>
+
+      <div class="body-text">
+        <strong>All of this will be possible within GymVid.</strong>
+      </div>
+
+      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
+
+      <div class="section-title">As a Founder, here's what you get:</div>
+
+      <div class="list-item">✅ Early access when we launch (targeting Q1 2026)</div>
+      <div class="list-item">✅ Founding member pricing — you'll pay less than everyone else</div>
+      <div class="list-item">✅ Direct line to me — your feedback shapes what we build</div>
+
+      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
+
+      <div class="section-title">Here's what I need from you:</div>
+
+      <div class="body-text">
+        What's the #1 thing that frustrates you most about tracking workouts right now?
+      </div>
+
+      <div class="body-text">
+        Reply and tell me. I'm using founder feedback to prioritize features.
+      </div>
+
+      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
+
+      <div class="body-text">
+        We're in the final stages of development now. I'll keep you updated as we hit milestones.<br/>
+        <br/>
+        Can't wait to build this with you.
       </div>
 
       <div class="signature">
-        Looking forward to building together,<br/>
-        <br/>
-        <strong>Jamie</strong><br/>
-        Founder & CEO<br/>
-        <br/>
-        <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" style="max-width: 100px; height: auto; margin: 16px 0;" />
+        Jamie<br/>
+        Founder & CEO, GymVid
+      </div>
+
+      <div class="body-text" style="font-size: 14px; margin-top: 24px;">
+        <strong>P.S.</strong> I'm selecting a small group for beta testing before launch. If you want early access to test features and give feedback, reply with "BETA" and let me know.
       </div>
 
       <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0 0 0;" />

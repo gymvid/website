@@ -52,28 +52,39 @@ export async function appendToGoogleSheet(
   rows: (string | number)[][]
 ): Promise<void> {
   try {
-    const accessToken = await getAccessToken();
+    console.log("Starting Google Sheets append operation...");
+    console.log("Rows to append:", JSON.stringify(rows));
 
-    const response = await fetch(
-      `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}!A:E:append`,
-      {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${accessToken}`,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          values: rows,
-          valueInputOption: "USER_ENTERED",
-        }),
-      }
-    );
+    const accessToken = await getAccessToken();
+    console.log("Access token obtained successfully");
+
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${SHEET_NAME}!A:E:append?valueInputOption=USER_ENTERED`;
+    console.log("Google Sheets API URL:", url);
+
+    const requestBody = {
+      values: rows,
+    };
+    console.log("Request body:", JSON.stringify(requestBody));
+
+    const response = await fetch(url, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(requestBody),
+    });
+
+    console.log("Google Sheets API response status:", response.status);
 
     if (!response.ok) {
       const error = await response.text();
-      throw new Error(`Google Sheets API error: ${error}`);
+      console.error("Google Sheets API error response:", error);
+      throw new Error(`Google Sheets API error (${response.status}): ${error}`);
     }
 
+    const responseData = await response.json();
+    console.log("Google Sheets API success response:", JSON.stringify(responseData));
     console.log("Data appended to Google Sheet successfully");
   } catch (error) {
     console.error("Error appending to Google Sheet:", error);

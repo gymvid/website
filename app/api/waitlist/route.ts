@@ -56,7 +56,18 @@ export async function POST(request: Request) {
 
     // Step 1: Add contact to SendGrid Marketing Contacts
     try {
+      console.log("Step 1: Adding contact to SendGrid Marketing Contacts...");
       const interestsString = interests.join(", ");
+
+      const contactPayload = {
+        contacts: [
+          {
+            email: email.toLowerCase(),
+            first_name: firstName,
+          },
+        ],
+      };
+      console.log("Contact payload:", JSON.stringify(contactPayload));
 
       const addContactResponse = await fetch(
         "https://api.sendgrid.com/v3/marketing/contacts",
@@ -66,23 +77,12 @@ export async function POST(request: Request) {
             Authorization: `Bearer ${SENDGRID_API_KEY}`,
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({
-            contacts: [
-              {
-                email: email.toLowerCase(),
-                first_name: firstName,
-                custom_fields: {
-                  w1_M: new Date().toISOString(),
-                  w2_M: "website",
-                  w3_M: interestsString,
-                },
-              },
-            ],
-          }),
+          body: JSON.stringify(contactPayload),
         }
       );
 
       const contactData = await addContactResponse.json();
+      console.log("SendGrid contact response:", JSON.stringify(contactData));
 
       // Check if email already exists
       if (contactData.errors && contactData.errors.length > 0) {
@@ -91,6 +91,7 @@ export async function POST(request: Request) {
         );
 
         if (duplicateError) {
+          console.log("Email already exists in SendGrid");
           return NextResponse.json(
             { error: "You're already on the list! Check your email for your VIP benefits." },
             { status: 200 }
@@ -102,6 +103,7 @@ export async function POST(request: Request) {
         console.error("SendGrid contact error:", contactData);
         throw new Error("Failed to add contact");
       }
+      console.log("Contact added to SendGrid successfully");
     } catch (contactError) {
       console.error("Error adding contact to SendGrid:", contactError);
       // Continue to next steps even if this fails
@@ -109,6 +111,7 @@ export async function POST(request: Request) {
 
     // Step 2: Add contact to SendGrid "Waitlist" list
     try {
+      console.log("Step 2: Adding contact to SendGrid 'Waitlist' list...");
       // First, get the list ID for "Waitlist"
       const listsResponse = await fetch(
         "https://api.sendgrid.com/v3/marketing/lists",
@@ -121,16 +124,25 @@ export async function POST(request: Request) {
       );
 
       const listsData = await listsResponse.json();
+      console.log("SendGrid lists response:", JSON.stringify(listsData));
+
       const waitlistList = listsData.result?.find(
         (list: any) => list.name === "Waitlist"
       );
 
       if (waitlistList) {
         const listId = waitlistList.id;
+        console.log("Found 'Waitlist' list with ID:", listId);
 
-        // Add contact to the list
+        // Wait for contact to be indexed in SendGrid (async operation)
+        await new Promise(resolve => setTimeout(resolve, 1000));
+
+        // Add contact to the list - try alternative endpoint format
+        console.log("Adding contact to 'Waitlist' list by email:", email.toLowerCase());
+        const listEndpoint = `https://api.sendgrid.com/v3/marketing/lists/${listId}/contacts`;
+        console.log("List endpoint URL:", listEndpoint);
         const addToListResponse = await fetch(
-          `https://api.sendgrid.com/v3/marketing/lists/${listId}/contacts`,
+          listEndpoint,
           {
             method: "PUT",
             headers: {
@@ -143,30 +155,65 @@ export async function POST(request: Request) {
           }
         );
 
+        console.log("Add to list response status:", addToListResponse.status);
+
         if (!addToListResponse.ok) {
-          console.error("Failed to add contact to Waitlist list");
+          const errorText = await addToListResponse.text();
+          console.error("Failed to add contact to Waitlist list:", errorText);
+        } else {
+          const responseData = await addToListResponse.json();
+          console.log("Add to list response data:", JSON.stringify(responseData));
+          console.log("Contact added to 'Waitlist' list successfully");
         }
+      } else {
+        console.warn("'Waitlist' list not found in SendGrid");
       }
     } catch (listError) {
       console.error("Error adding to SendGrid list:", listError);
-      // Continue to Google Sheets
+      // Continue to Google Sheets - this step is optional since Google Sheets serves as backup
+      console.log("Continuing with Google Sheets backup (SendGrid list assignment is optional)");
     }
 
     // Step 3: Append to Google Sheets
     try {
+      console.log("Step 3: Appending to Google Sheets...");
       const timestamp = new Date().toISOString();
       const interestsString = interests.join(", ");
+      const rowData = [firstName, email, interestsString, timestamp, country];
+      console.log("Row data to append:", JSON.stringify(rowData));
 
-      await appendToGoogleSheet([
-        [firstName, email, interestsString, timestamp, country],
-      ]);
+      await appendToGoogleSheet([rowData]);
+      console.log("Google Sheets append completed successfully");
     } catch (sheetError) {
       console.error("Error appending to Google Sheet:", sheetError);
       // Continue to send email even if sheet fails
     }
 
     // Step 4: Send confirmation email
+    console.log("Step 4: Sending confirmation email...");
     const htmlContent = getWaitlistConfirmationEmail(firstName);
+
+    const emailPayload = {
+      personalizations: [
+        {
+          to: [{ email }],
+          subject:
+            "Welcome to the Founding Members Club 🤝 Your VIP perks are locked in!! 😎",
+        },
+      ],
+      from: {
+        email: "hello@gymvid.com",
+        name: "GymVid App",
+      },
+      content: [
+        {
+          type: "text/html",
+          value: htmlContent,
+        },
+      ],
+    };
+    console.log("Email payload subject:", emailPayload.personalizations[0].subject);
+    console.log("Email sending to:", email);
 
     const emailResponse = await fetch("https://api.sendgrid.com/v3/mail/send", {
       method: "POST",
@@ -174,32 +221,18 @@ export async function POST(request: Request) {
         Authorization: `Bearer ${SENDGRID_API_KEY}`,
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-        personalizations: [
-          {
-            to: [{ email }],
-            subject:
-              "Welcome to the Founding Members Club 🤝 Your VIP perks are locked in!! 😎",
-          },
-        ],
-        from: {
-          email: "hello@gymvid.com",
-          name: "GymVid App",
-        },
-        content: [
-          {
-            type: "text/html",
-            value: htmlContent,
-          },
-        ],
-      }),
+      body: JSON.stringify(emailPayload),
     });
+
+    console.log("SendGrid email response status:", emailResponse.status);
 
     if (!emailResponse.ok) {
       const emailError = await emailResponse.text();
       console.error("SendGrid email error:", emailError);
       throw new Error("Failed to send confirmation email");
     }
+
+    console.log("Confirmation email sent successfully");
 
     return NextResponse.json({
       success: true,

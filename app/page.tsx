@@ -125,7 +125,7 @@ export default function Home() {
           </div>
 
           {/* Positioning Statement - Mobile */}
-          <p className={`md:hidden text-center text-primary font-semibold text-lg mt-2 mb-4 transition-all duration-500 ${
+          <p className={`md:hidden text-center text-primary font-semibold text-lg mt-2 mb-6 transition-all duration-500 ${
             showSubheading ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}>
             Strava for strength training. Finally.

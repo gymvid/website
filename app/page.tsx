@@ -177,20 +177,20 @@ export default function Home() {
           }`}>
             <button
               onClick={() => setShowWaitlistModal(true)}
-              className="cursor-pointer hover:opacity-80 transition-opacity"
+              className="cursor-pointer hover:opacity-80 transition-opacity shadow-medium rounded-lg"
             >
               <img
-                src="/images/logo/app-store-coming-soon-white.png"
+                src="/images/logo/app-coming-soon-white.png"
                 alt="Coming Soon on App Store"
                 className="h-12 object-contain"
               />
             </button>
             <button
               onClick={() => setShowWaitlistModal(true)}
-              className="cursor-pointer hover:opacity-80 transition-opacity"
+              className="cursor-pointer hover:opacity-80 transition-opacity shadow-medium rounded-lg"
             >
               <img
-                src="/images/logo/play-store-coming-soon-white.png"
+                src="/images/logo/play-coming-soon-white.png"
                 alt="Coming Soon on Google Play"
                 className="h-12 object-contain"
               />

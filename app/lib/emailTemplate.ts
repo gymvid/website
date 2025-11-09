@@ -61,16 +61,15 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
     }
     .benefit-item {
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       margin-bottom: 14px;
       font-size: 16px;
       background-color: #f9fafb;
       padding: 12px;
       border-radius: 8px;
-      border-left: 3px solid #007AFF;
     }
     .checkmark {
-      color: #007AFF;
+      color: #1C1C1E;
       font-weight: 700;
       margin-right: 12px;
       flex-shrink: 0;
@@ -110,10 +109,11 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       color: #1C1C1E;
     }
     .timeline {
-      background-color: #f5f5f5;
+      background-color: #f0f7ff;
       border-radius: 12px;
       padding: 20px;
       margin: 24px 0;
+      border: 2px solid #007AFF;
     }
     .timeline-title {
       font-size: 16px;
@@ -225,9 +225,9 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
 
       <div class="timeline">
         <div class="timeline-title">What's Next:</div>
-        <div class="timeline-item"><strong>2026: App launches (date TBC)</strong></div>
-        <div class="timeline-item"><strong>Launch: You'll get notified and be among the first to experience the future of strength training</strong></div>
-        <div class="timeline-item"><strong>Always: VIP pricing locked in for life</strong></div>
+        <div class="timeline-item"><strong>2026:</strong> App launches (date TBC)</div>
+        <div class="timeline-item"><strong>Launch:</strong> You'll get notified and be among the first to experience the future of strength training</div>
+        <div class="timeline-item"><strong>Always:</strong> VIP pricing locked in for life</div>
       </div>
 
       <div class="body-text">
@@ -245,8 +245,10 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       <div class="signature">
         Ready to stop logging and start training?<br/>
         <br/>
-        <strong>Jamie & The GymVid Team</strong>
+        <strong>GymVid</strong>
       </div>
+
+      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
     </div>
 
     <div class="footer">

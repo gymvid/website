@@ -57,7 +57,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       font-size: 16px;
       font-weight: 700;
       margin: 28px 0 16px;
-      color: #1C1C1E;
+      color: #007AFF;
     }
     .benefit-item {
       display: flex;
@@ -151,13 +151,16 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
 
     @media only screen and (max-width: 600px) {
       .content {
-        padding: 20px 20px 40px;
+        padding: 20px 20px 0;
       }
       .greeting {
         font-size: 18px;
       }
       .benefit-item {
         padding: 10px;
+      }
+      .footer {
+        padding: 10px 20px;
       }
     }
   </style>
@@ -204,7 +207,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
         <div class="checkmark">💡</div>
         <div class="benefit-text">
           <div class="benefit-title"><strong>Real-Time AI Form Coaching</strong></div>
-          <div class="benefit-desc">Get instant technique feedback on every lift to improve form & prevent injury.</div>
+          <div class="benefit-desc">Get instant feedback on your technique with every lift & improve your form.</div>
         </div>
       </div>
 

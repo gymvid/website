@@ -173,57 +173,53 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
     </div>
 
     <div class="content">
-      <div class="greeting">Hey ${firstName}</div>
+      <div class="greeting">Hey ${firstName},</div>
 
       <div class="body-text">
-        You just secured your spot in what we believe to be the future of strength training.<br/>
-        <br/>
-        <strong>Welcome to the GymVid founders club!</strong><br/>
-        <br/>
-        While people continue to go through the tedious task of manually logging their workouts...<br/>
-        <br/>
-        GymVid users will film their sets and let AI handle the rest!<br/>
-        <br/>
-        No more endless tapping.<br/>
-        <br/>
-        No more guessing your form.<br/>
-        <br/>
-        <strong>Just better training & faster progress.</strong>
+        You just joined something most lifters won't get access to for years.
+      </div>
+
+      <div class="body-text">
+        Right now, everyone else is still doing the same thing: film a set, check their form, then spend 5 minutes manually logging it all into an app. It's a waste of your time.
+      </div>
+
+      <div class="body-text">
+        As a GymVid founder, you skip all that. You're already filming anyway — we just made that footage actually work for you.
       </div>
 
       <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
 
-      <div class="benefits-title">What Makes GymVid Different:</div>
+      <div class="benefits-title">Here's What You Get:</div>
 
       <div class="benefit-item">
         <div class="checkmark">✨</div>
         <div class="benefit-text">
-          <div class="benefit-title"><strong>Automatic Workout Logging</strong></div>
-          <div class="benefit-desc">Film your set. AI logs exercise, reps, weight, form quality instantly.</div>
+          <div class="benefit-title"><strong>No More Logging</strong></div>
+          <div class="benefit-desc">Film your set. That's it. AI logs your exercise, reps, weight, and form — instantly.</div>
         </div>
       </div>
 
       <div class="benefit-item">
         <div class="checkmark">💡</div>
         <div class="benefit-text">
-          <div class="benefit-title"><strong>Real-Time AI Form Coaching</strong></div>
-          <div class="benefit-desc">Get instant feedback on your technique with every lift & improve your form.</div>
+          <div class="benefit-title"><strong>Stop Guessing Your Form</strong></div>
+          <div class="benefit-desc">Get real-time feedback on every lift. Fix bad habits before they become injuries. Train smarter, not just harder.</div>
         </div>
       </div>
 
       <div class="benefit-item">
         <div class="checkmark">🏆</div>
         <div class="benefit-text">
-          <div class="benefit-title"><strong>Verified Competition</strong></div>
-          <div class="benefit-desc">Compete against friends with video proof. Real leaderboards.</div>
+          <div class="benefit-title"><strong>Compete Against Friends (For Real)</strong></div>
+          <div class="benefit-desc">Challenge your crew with video proof. No claims, no BS — just who actually lifted what. Real leaderboards. Real winners.</div>
         </div>
       </div>
 
       <div class="benefit-item">
         <div class="checkmark">😎</div>
         <div class="benefit-text">
-          <div class="benefit-title"><strong>Build Your Training Brand</strong></div>
-          <div class="benefit-desc">Share your vids / workouts and build a following of serious lifters.</div>
+          <div class="benefit-title"><strong>Build a Following That Respects Your Work</strong></div>
+          <div class="benefit-desc">Share your progress and find your people. Stop training alone.</div>
         </div>
       </div>
 
@@ -231,29 +227,28 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
 
       <div class="timeline">
         <div class="timeline-title">What's Next:</div>
-        <div class="timeline-item"><strong>2026:</strong> App launches (date TBC)</div>
-        <div class="timeline-item"><strong>Launch:</strong> You'll get notified and be among the first to experience the future of strength training</div>
-        <div class="timeline-item"><strong>Always:</strong> VIP pricing locked in for life</div>
+        <div class="timeline-item">→ <strong>More details on the opportunity</strong> are coming soon</div>
+        <div class="timeline-item">→ You'll be notified when we open our <strong>seed round</strong></div>
+        <div class="timeline-item">→ <strong>VIP pricing is locked in for you forever</strong></div>
       </div>
 
       <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
 
       <div class="body-text">
-        We're in the final stages of development now and can't wait to put GymVid in your hands.<br/>
-        <br/>
-        You'll be the first to know the moment we're ready!<br/>
-        <br/>
-        In the meantime, please let us know if you have any questions.<br/>
-        <br/>
-        Otherwise, more info to come soon!<br/>
-        <br/>
-        Thanks so much for your support!!
+        We're in final stages of development now. You'll be among the first to experience this when we launch in 2026.
+      </div>
+
+      <div class="body-text">
+        In the meantime, hit reply with any questions. We'd genuinely love to hear what excites you most about this.
       </div>
 
       <div class="signature">
-        Ready to stop logging and start training?<br/>
+        Looking forward to building together,<br/>
         <br/>
-        <strong>GymVid</strong>
+        <strong>Jamie</strong><br/>
+        Founder & CEO<br/>
+        <br/>
+        <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" style="max-width: 100px; height: auto; margin: 16px 0;" />
       </div>
 
       <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0 0 0;" />

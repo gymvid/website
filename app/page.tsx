@@ -180,7 +180,7 @@ export default function Home() {
               className="cursor-pointer hover:opacity-80 transition-opacity"
             >
               <img
-                src="/images/logo/coming-soon-app-white.png"
+                src="/images/logo/app-store-coming-soon-white.png"
                 alt="Coming Soon on App Store"
                 className="h-12 object-contain"
               />
@@ -190,7 +190,7 @@ export default function Home() {
               className="cursor-pointer hover:opacity-80 transition-opacity"
             >
               <img
-                src="/images/logo/coming-soon-play-white.png"
+                src="/images/logo/play-store-coming-soon-white.png"
                 alt="Coming Soon on Google Play"
                 className="h-12 object-contain"
               />

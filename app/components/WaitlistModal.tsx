@@ -197,7 +197,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
 
                         <p>THIS question is what led us to build GymVid!</p>
 
-                        <p className="text-primary">Imagine having AI scan your vids to:</p>
+                        <p className="text-primary">Imagine having AI scan your vids to...</p>
                         <ul className="text-center space-y-2">
                           <li className="flex items-center justify-center gap-2">
                             <svg className="w-5 h-5 text-primary flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">

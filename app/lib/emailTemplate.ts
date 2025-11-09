@@ -262,7 +262,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 28px 0;" />
 
       <div class="body-text" style="font-weight: 700; color: #007AFF; margin-bottom: 16px;">
-        Here's what I need from you:
+        Here's what I need from you...
       </div>
 
       <div class="body-text">
@@ -288,6 +288,8 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
         Founder & CEO, GymVid<br/>
         <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" style="width: 100px; height: auto; margin-top: 12px; display: block;" />
       </div>
+
+      <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
       <div class="body-text" style="margin-top: 28px; color: #8E8E93;">
         <strong style="color: #1C1C1E;">P.S.</strong> I'm selecting a small group for beta testing before launch. If you want early access to test features and give feedback, reply with <span style="color: #007AFF; font-weight: 600;">"BETA"</span> and let me know.

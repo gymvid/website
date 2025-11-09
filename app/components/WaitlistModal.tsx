@@ -39,6 +39,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [error, setError] = useState("");
+  const [submittedFirstName, setSubmittedFirstName] = useState("");
 
   const handleInitialContinue = () => {
     setStep(2);
@@ -87,6 +88,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
         throw new Error(data.error || "Something went wrong");
       }
 
+      setSubmittedFirstName(firstName);
       setIsSuccess(true);
       // Reset form
       setFirstName("");
@@ -114,6 +116,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
     setEmail("");
     setError("");
     setIsSuccess(false);
+    setSubmittedFirstName("");
     onClose();
   };
 
@@ -391,7 +394,7 @@ export default function WaitlistModal({ isOpen, onClose }: WaitlistModalProps) {
                   </div>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-dark mb-2">
-                  Thanks {firstName}!
+                  Thanks {submittedFirstName}!
                 </h3>
                 <p className="text-base text-gray-medium">
                   We'll email you as soon as the app is ready to launch so you can claim your VIP pricing!

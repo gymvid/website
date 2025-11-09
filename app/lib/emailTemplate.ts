@@ -173,7 +173,9 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
     </div>
 
     <div class="content">
-      <div class="greeting">Hey ${firstName},</div>
+      <div class="body-text">
+        Hey ${firstName}
+      </div>
 
       <div class="body-text">
         Welcome to the <span style="color: #007AFF; font-weight: 700;">GymVid Founders Club!</span>
@@ -188,10 +190,10 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        But as someone who's spent the last 15 years working in gyms - I'm confident in saying this.
+        But as someone who's spent the last 15 years working in gyms - I'm confident in saying this 👊
       </div>
 
-      <div style="height: 20px;"></div>
+      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 20px 0;" />
 
       <div class="body-text" style="margin-top: 0;">
         <strong>Here's the problems I've observed over the years...</strong>
@@ -281,8 +283,8 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
         Can't wait to build this with you! 🙌
       </div>
 
-      <div class="signature">
-        Jamie<br/>
+      <div class="signature" style="margin-top: 12px;">
+        <strong>Jamie</strong><br/>
         Founder & CEO, GymVid<br/>
         <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" style="max-width: 100px; height: auto; margin-top: 12px;" />
       </div>

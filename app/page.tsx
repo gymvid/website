@@ -104,7 +104,7 @@ export default function Home() {
           </div>
 
           {/* Sub-heading for Mobile - Below tagline */}
-          <p className={`md:hidden text-center text-gray-medium font-normal text-[19px] mt-2 transition-all duration-500 ${
+          <p className={`md:hidden text-center text-gray-medium font-normal text-[19px] mt-1 transition-all duration-500 ${
             showSubheading ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}>
             Film your workout. AI does the rest.

@@ -23,8 +23,10 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       padding: 40px 20px 20px;
     }
     .logo {
-      max-width: 200px;
-      height: auto;
+      width: 200px;
+      height: 200px;
+      display: block;
+      margin: 0 auto;
     }
     .content {
       padding: 20px 40px 0;

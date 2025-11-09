@@ -23,8 +23,10 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       padding: 40px 20px 20px;
     }
     .logo {
-      max-width: 200px;
-      height: auto;
+      width: 200px;
+      height: 200px;
+      display: block;
+      margin: 0 auto;
     }
     .content {
       padding: 20px 40px 0;
@@ -286,7 +288,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       <div class="signature" style="margin-top: 12px;">
         <strong>Jamie</strong><br/>
         Founder & CEO, GymVid<br/>
-        <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" style="max-width: 100px; height: auto; margin-top: 12px;" />
+        <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" style="width: 100px; height: 100px; margin-top: 12px; display: block;" />
       </div>
 
       <div class="body-text" style="margin-top: 28px; color: #8E8E93;">

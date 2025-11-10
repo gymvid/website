@@ -529,9 +529,9 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       <div class="section-header">The Opportunity</div>
 
       <div class="body-text">
-        Strong: <span style="color: #007AFF; font-weight: 600;">\$6.6M ARR</span> (manual logging only)<br/>
-        Hevy: <span style="color: #007AFF; font-weight: 600;">\$6M ARR</span> (manual + basic social)<br/>
-        Liftoff: <span style="color: #007AFF; font-weight: 600;">\$5.3M ARR</span> (manual + gamification)<br/>
+        <strong>Strong:</strong> <span style="color: #007AFF;">\$6.6M ARR</span> (manual logging only)<br/>
+        <strong>Hevy:</strong> <span style="color: #007AFF;">\$6M ARR</span> (manual + basic social)<br/>
+        <strong>Liftoff:</strong> <span style="color: #007AFF;">\$5.3M ARR</span> (manual + gamification)<br/>
         <strong>Total market: <span style="color: #007AFF;">~\$18M+ ARR</span></strong>
       </div>
 

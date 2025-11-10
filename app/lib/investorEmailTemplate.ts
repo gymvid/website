@@ -273,7 +273,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       <div class="section-header">Here's proof the technology works…</div>
 
       <div class="body-text">
-        An app called Cal AI just validated this exact approach.
+        An app called <a href="https://apps.apple.com/us/app/cal-ai-calorie-tracker/id6480417616" style="color: #007AFF;">Cal AI</a> just validated this exact approach.
       </div>
 
       <div class="body-text">

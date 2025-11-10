@@ -81,10 +81,6 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
     <div class="content">
       <div class="body-text">
-        <strong>Subject: \$340K/month flowing away from manual workout loggers</strong>
-      </div>
-
-      <div class="body-text">
         Hey ${firstName}
       </div>
 

@@ -123,7 +123,7 @@ export async function POST(request: Request) {
         personalizations: [
           {
             to: [{ email }],
-            subject: "Thank you for your interest in GymVid",
+            subject: "\$340K/month flowing away from manual workout loggers",
           },
         ],
         from: {

@@ -5,7 +5,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>$340K/month flowing away from manual workout loggers – GymVid Investment</title>
+  <title>\$340K/month flowing away from manual workout loggers – GymVid Investment</title>
   <style>
     body {
       margin: 0;
@@ -33,6 +33,12 @@ export function getInvestorConfirmationEmail(firstName: string): string {
     }
     .body-text {
       font-size: 16px;
+      margin-bottom: 16px;
+      color: #1C1C1E;
+    }
+    .section-header {
+      font-size: 20px;
+      font-weight: 700;
       margin-bottom: 16px;
       color: #1C1C1E;
     }
@@ -102,9 +108,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text">
-        <strong style="color: #007AFF;">Here's what's happening...</strong>
-      </div>
+      <div class="section-header">Here's what's happening...</div>
 
       <div class="body-text">
         In the last 6 months, manual workout logging apps lost <span style="color: #007AFF; font-weight: 600;">\$150K/month</span> in revenue.
@@ -128,9 +132,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text">
-        <strong style="color: #007AFF;">Walk into any gym…</strong>
-      </div>
+      <div class="section-header">Walk into any gym…</div>
 
       <div class="body-text">
         You'll see phones propped against water bottles everywhere. People filming sets for form checks.
@@ -146,9 +148,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text">
-        <strong style="color: #007AFF;">The Competitive Landscape</strong>
-      </div>
+      <div class="section-header">The Competitive Landscape</div>
 
       <div class="body-text">
         These are the major players in the gym logging space:
@@ -181,19 +181,19 @@ export function getInvestorConfirmationEmail(firstName: string): string {
           <td><strong>Strong</strong> (manual only)</td>
           <td>\$700k/mo</td>
           <td>\$550k/mo</td>
-          <td style="color: #dc2626;"><strong>-21% (-\$150k)</strong></td>
+          <td style="color: #dc2626;"><strong>-21%<br/>(-\$150k)</strong></td>
         </tr>
         <tr>
           <td><strong>Hevy</strong> (manual + social)</td>
           <td>\$300k/mo</td>
           <td>\$500k/mo</td>
-          <td style="color: #007AFF;"><strong>+67% (+\$200k)</strong></td>
+          <td style="color: #007AFF;"><strong>+67%<br/>(+\$200k)</strong></td>
         </tr>
         <tr>
           <td><strong>Liftoff</strong> (manual + gamification)</td>
           <td>\$300k/mo</td>
           <td>\$440k/mo</td>
-          <td style="color: #007AFF;"><strong>+47% (+\$140k)</strong></td>
+          <td style="color: #007AFF;"><strong>+47%<br/>(+\$140k)</strong></td>
         </tr>
       </table>
 
@@ -202,11 +202,11 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <strong style="color: #8E8E93;">Hevy's "social":</strong> Placeholder images with text summaries. You can share workouts and compare lifts, but there's nothing to actually watch. Just boring thumbnails.
+        <strong style="color: #1C1C1E;">Hevy's "social":</strong> Placeholder images with text summaries. You can share workouts and compare lifts, but there's nothing to actually watch. Just boring thumbnails.
       </div>
 
       <div class="body-text">
-        <strong style="color: #8E8E93;">Liftoff's "gamification":</strong> Cartoon elephants, a mascot named "Jymbo," egg currency, "GymBros Inc" branding. Alienates mainstream users with extreme bro-culture positioning.
+        <strong style="color: #1C1C1E;">Liftoff's "gamification":</strong> Cartoon elephants, a mascot named "Jymbo," egg currency, "GymBros Inc" branding. Alienates mainstream users with extreme bro-culture positioning.
       </div>
 
       <div class="body-text">
@@ -223,9 +223,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text">
-        <strong style="color: #007AFF;">This is the Instagram vs TikTok Moment for Fitness</strong>
-      </div>
+      <div class="section-header">This is the Instagram vs TikTok Moment for Fitness</div>
 
       <div class="body-text">
         We watched this exact pattern in content:
@@ -242,14 +240,13 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <strong>The market is ready for video. And nobody's built it yet.</strong>
+        <strong>The market is ready for video.</strong><br/>
+        <strong>And nobody's built it yet…</strong>
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text">
-        <strong style="color: #007AFF;">Why Video Changes Everything</strong>
-      </div>
+      <div class="section-header">Why Video Changes Everything</div>
 
       <div class="body-text">
         For strength training, video is the GPS.
@@ -260,14 +257,20 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        People already film workouts constantly. Open Instagram or TikTok and search #gym - you'll find millions of posts proving the behaviour exists at scale. But right now, all that footage is being wasted.
+        People already film workouts constantly.
+      </div>
+
+      <div class="body-text">
+        Open Instagram or TikTok and search #gym - you'll find millions of posts prove the behaviour exists at scale.
+      </div>
+
+      <div class="body-text">
+        <strong>But right now, all that footage is being wasted!</strong>
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text">
-        <strong style="color: #007AFF;">Here's proof the technology works…</strong>
-      </div>
+      <div class="section-header">Here's proof the technology works…</div>
 
       <div class="body-text">
         An app called Cal AI just validated this exact approach.
@@ -286,47 +289,52 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        Strava launched when GPS became ubiquitous (2009).
+        Strava launched when GPS became ubiquitous (2009).<br/>
         We're launching when computer vision became commercially viable (2025).
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text">
-        <strong style="color: #007AFF;">What We're Building</strong>
-      </div>
+      <div class="section-header">What We're Building</div>
 
       <div class="body-text">
         GymVid = Strava's formula applied to strength training:
       </div>
 
-      <div class="body-text">
-        <strong>Strava</strong><br/>
-        Automatic logging (GPS)<br/>
-        Social feed (activities)<br/>
-        Verified competition (segments, KOMs)<br/>
-        Creator platform (clubs, routes)
-      </div>
-
-      <div class="body-text">
-        <strong style="color: #007AFF;">GymVid</strong><br/>
-        Automatic logging (AI video)<br/>
-        Social feed (workout videos)<br/>
-        Verified competition (video-proof PRs)<br/>
-        Creator platform (trainers monetize)
-      </div>
+      <table>
+        <tr>
+          <th>Strava</th>
+          <th>GymVid</th>
+        </tr>
+        <tr>
+          <td><strong>Automatic logging</strong><br/>GPS</td>
+          <td><strong>Automatic logging</strong><br/>AI video</td>
+        </tr>
+        <tr>
+          <td><strong>Social feed</strong><br/>Activities</td>
+          <td><strong>Social feed</strong><br/>Workout videos</td>
+        </tr>
+        <tr>
+          <td><strong>Verified competition</strong><br/>Segments, KOMs</td>
+          <td><strong>Verified competition</strong><br/>Video-proof PRs</td>
+        </tr>
+        <tr>
+          <td><strong>Creator platform</strong><br/>Clubs, routes</td>
+          <td><strong>Creator platform</strong><br/>Trainers monetize</td>
+        </tr>
+      </table>
 
       <div class="body-text">
         <strong>The user experience:</strong>
       </div>
 
-      <div class="body-text">
-        → Film your set<br/>
-        → AI detects exercise, counts reps, estimates weight<br/>
-        → AI analyzes form and provides coaching feedback (RPE from bar speed, Time Under Tension, Reps in Reserve)<br/>
-        → Post to feed with verified proof<br/>
-        → Compete on global leaderboards (filtered by age/gender/weight class)<br/>
-        → Follow other lifters, watch their workouts, build community
+      <div class="body-text" style="margin-bottom: 20px;">
+        <span style="color: #007AFF;">→ Film your set</span><br/>
+        <span style="color: #007AFF;">→ AI detects exercise, counts reps, estimates weight</span><br/>
+        <span style="color: #007AFF;">→ AI analyzes form and provides coaching feedback</span> (RPE from bar speed, Time Under Tension, Reps in Reserve)<br/>
+        <span style="color: #007AFF;">→ Post to feed with verified proof</span><br/>
+        <span style="color: #007AFF;">→ Compete on global leaderboards</span> (filtered by age/gender/weight class)<br/>
+        <span style="color: #007AFF;">→ Follow other lifters, watch their workouts, build community</span>
       </div>
 
       <div class="body-text">
@@ -335,9 +343,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text">
-        <strong style="color: #007AFF;">Why Strength Training is Compelling</strong>
-      </div>
+      <div class="section-header">Why Strength Training is Compelling</div>
 
       <div class="body-text">
         In full transparency - the total addressable market is smaller than running/cycling…
@@ -369,9 +375,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text">
-        <strong style="color: #007AFF;">Who Am I?</strong>
-      </div>
+      <div class="section-header">Who Am I?</div>
 
       <div class="body-text">
         I've been in gyms since I left high school - 15 years now.
@@ -415,9 +419,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text">
-        <strong style="color: #007AFF;">The Team</strong>
-      </div>
+      <div class="section-header">The Team</div>
 
       <div class="body-text">
         I've partnered with Shine Dezign to help launch GymVid - we've worked together for nearly 3 years across multiple ventures, including building LIFTit.
@@ -437,9 +439,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text">
-        <strong style="color: #007AFF;">Where We're At</strong>
-      </div>
+      <div class="section-header">Where We're At</div>
 
       <div class="body-text">
         <strong>MVP Status:</strong>
@@ -461,9 +461,9 @@ export function getInvestorConfirmationEmail(firstName: string): string {
         • <strong>Target:</strong> 1,000 users within 6 months (organic growth + gym partnerships)
       </div>
 
-      <div class="body-text">
-        <strong style="color: #007AFF;">Day 1 Distribution Advantage:</strong>
-      </div>
+      <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
+
+      <div class="section-header">Day 1 Distribution Advantage</div>
 
       <div class="body-text">
         • Stephanie's <span style="color: #007AFF; font-weight: 600;">5M+ follower network</span> launches with us<br/>
@@ -477,9 +477,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text">
-        <strong style="color: #007AFF;">The Competitive Window</strong>
-      </div>
+      <div class="section-header">The Competitive Window</div>
 
       <div class="body-text">
         Strong, Hevy, and Liftoff are built on text/image infrastructure.
@@ -512,9 +510,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text">
-        <strong style="color: #007AFF;">The Opportunity</strong>
-      </div>
+      <div class="section-header">The Opportunity</div>
 
       <div class="body-text">
         Strong: <span style="color: #007AFF; font-weight: 600;">\$6.6M ARR</span> (manual logging only)<br/>
@@ -542,7 +538,8 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       <div class="body-text">
         • 10K users (0.005% of 200M gym members)<br/>
         • \$5 blended ARPU = \$600K ARR<br/>
-        • Break even, validate retention (>40% Month-1)
+        • Break even, validate retention (>40% Month-1)<br/>
+        • Raise seed round with proof of concept
       </div>
 
       <div class="body-text">
@@ -557,17 +554,47 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <strong style="color: #007AFF;">Year 3-5:</strong> Grow the category
+        <strong style="color: #007AFF;">Year 3-5:</strong> Strategic inflection point
       </div>
 
       <div class="body-text">
-        • Video features attract users who don't use Strong/Hevy today<br/>
         • 500K users = \$30M ARR (1.5x current total market)<br/>
-        • Dominant player in video-verified strength tracking
+        • Dominant player in video-verified strength training<br/>
+        • Multiple paths forward:
       </div>
 
       <div class="body-text">
-        <strong>Is this achievable?</strong>
+        <strong style="color: #007AFF;">Most likely: Strategic acquisition</strong>
+      </div>
+
+      <div class="body-text">
+        • <strong>Strava</strong> (just acquired Runna for AI coaching—we'd be their strength vertical)<br/>
+        • <strong>Whoop/Garmin/Oura</strong> (wearables need strength tracking content + validation data)<br/>
+        • <strong>Apple Fitness+</strong> (need strength training content, HealthKit integration opportunities)<br/>
+        • <strong>ClassPass/Mindbody</strong> (building full-stack fitness ecosystem)
+      </div>
+
+      <div class="body-text">
+        At this scale, we become a "buy vs build" decision for platforms that need 18-24 months and significant R&D to replicate our video verification + proprietary training data.
+      </div>
+
+      <div class="body-text">
+        <strong style="color: #007AFF;">Alternatively:</strong>
+      </div>
+
+      <div class="body-text">
+        • Continue scaling independently (Series B for global expansion)<br/>
+        • Strategic partnership maintaining independence
+      </div>
+
+      <div class="body-text">
+        <strong>The goal:</strong> Build something valuable enough that we have choices.
+      </div>
+
+      <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
+
+      <div class="body-text">
+        <strong style="color: #007AFF;">Is this achievable?</strong>
       </div>
 
       <div class="body-text">
@@ -590,7 +617,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
       <div class="body-text" style="font-weight: 700; color: #007AFF; margin-bottom: 16px;">
-        What I Need From You...
+        What I Need From You
       </div>
 
       <div class="body-text">
@@ -621,10 +648,10 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        • User growth metrics (signups, retention, engagement)<br/>
-        • AI accuracy improvements (targeting 90%+ on big 3 lifts)<br/>
-        • Creator adoption (personal trainers building followings)<br/>
-        • Revenue data (conversion rates, ARPU, LTV:CAC)
+        ✓ User growth metrics (signups, retention, engagement)<br/>
+        ✓ AI accuracy improvements (targeting 90%+ on big 3 lifts)<br/>
+        ✓ Creator adoption (personal trainers building followings)<br/>
+        ✓ Revenue data (conversion rates, ARPU, LTV:CAC)
       </div>
 
       <div class="body-text">
@@ -633,9 +660,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text">
-        <strong style="color: #007AFF;">Due Diligence Starting Points</strong>
-      </div>
+      <div class="section-header">Due Diligence Starting Points</div>
 
       <div class="body-text">
         → Download Strong, Hevy, Liftoff — see why they're not Strava<br/>
@@ -646,12 +671,14 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
+      <div class="section-header">In Summary…</div>
+
       <div class="body-text">
-        <strong style="color: #007AFF;">In Summary…</strong>
+        Strava proved the model works in running/cycling.
       </div>
 
       <div class="body-text">
-        Strava proved the model works in running/cycling. The market just proved strength trainers want social and competition (<span style="color: #007AFF; font-weight: 600;">\$340K/mo in 6 months</span>).
+        The market just proved strength trainers want social and competition (<span style="color: #007AFF; font-weight: 600;">\$340K/mo in 6 months</span>).
       </div>
 
       <div class="body-text">
@@ -693,3 +720,4 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 </html>
   `.trim();
 }
+`;

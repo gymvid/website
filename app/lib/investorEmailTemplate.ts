@@ -178,19 +178,19 @@ export function getInvestorConfirmationEmail(firstName: string): string {
           <th>Change</th>
         </tr>
         <tr>
-          <td><strong>Strong</strong> (manual only)</td>
+          <td><strong>Strong</strong><br/>(manual only)</td>
           <td>\$700k/mo</td>
           <td>\$550k/mo</td>
           <td style="color: #dc2626;"><strong>-21%<br/>(-\$150k)</strong></td>
         </tr>
         <tr>
-          <td><strong>Hevy</strong> (manual + social)</td>
+          <td><strong>Hevy</strong><br/>(manual + social)</td>
           <td>\$300k/mo</td>
           <td>\$500k/mo</td>
           <td style="color: #16a34a;"><strong>+67%<br/>(+\$200k)</strong></td>
         </tr>
         <tr>
-          <td><strong>Liftoff</strong> (manual + gamification)</td>
+          <td><strong>Liftoff</strong><br/>(manual + gamification)</td>
           <td>\$300k/mo</td>
           <td>\$440k/mo</td>
           <td style="color: #16a34a;"><strong>+47%<br/>(+\$140k)</strong></td>

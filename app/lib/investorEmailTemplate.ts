@@ -143,7 +143,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <strong>That friction is the entire opportunity.</strong>
+        <strong style="color: #007AFF;">That friction is the entire opportunity.</strong>
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
@@ -214,7 +214,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <strong>And most importantly - neither is Strava.</strong>
+        <strong style="color: #007AFF;">And most importantly - neither is Strava.</strong>
       </div>
 
       <div class="body-text">
@@ -241,7 +241,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div class="body-text">
         <strong>The market is ready for video.</strong><br/>
-        <strong>And nobody's built it yet…</strong>
+        <strong style="color: #007AFF;">And nobody's built it yet…</strong>
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
@@ -265,7 +265,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <strong>But right now, all that footage is being wasted!</strong>
+        <strong style="color: #007AFF;">But right now, all that footage is being wasted!</strong>
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
@@ -434,7 +434,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <strong>No runway pressure. Just execution.</strong>
+        <strong style="color: #007AFF;">No runway pressure. Just execution.</strong>
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
@@ -648,10 +648,10 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        ✓ User growth metrics (signups, retention, engagement)<br/>
-        ✓ AI accuracy improvements (targeting 90%+ on big 3 lifts)<br/>
-        ✓ Creator adoption (personal trainers building followings)<br/>
-        ✓ Revenue data (conversion rates, ARPU, LTV:CAC)
+        <span style="color: #007AFF;">✓</span> User growth metrics (signups, retention, engagement)<br/>
+        <span style="color: #007AFF;">✓</span> AI accuracy improvements (targeting 90%+ on big 3 lifts)<br/>
+        <span style="color: #007AFF;">✓</span> Creator adoption (personal trainers building followings)<br/>
+        <span style="color: #007AFF;">✓</span> Revenue data (conversion rates, ARPU, LTV:CAC)
       </div>
 
       <div class="body-text">

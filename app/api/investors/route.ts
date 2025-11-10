@@ -128,7 +128,7 @@ export async function POST(request: Request) {
         ],
         from: {
           email: "hello@gymvid.com",
-          name: "Jamie | GymVid",
+          name: "Jamie Bisset | GymVid",
         },
         content: [
           {

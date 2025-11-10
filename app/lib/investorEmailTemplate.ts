@@ -166,8 +166,8 @@ export function getInvestorConfirmationEmail(firstName: string): string {
         <strong><a href="https://apps.apple.com/us/app/liftoff-ranked-gym-workouts/id6448081563" style="color: #007AFF;">Liftoff:</a></strong> The new kid. 4 years old. Added gamification (leaderboards, challenges).
       </div>
 
-      <div class="body-text">
-        <strong>Here's what SensorTower data reveals…</strong>
+      <div class="body-text" style="color: #8E8E93;">
+        <em>Here's what SensorTower data reveals…</em>
       </div>
 
       <table>

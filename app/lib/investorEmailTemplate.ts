@@ -697,4 +697,3 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 </html>
   `.trim();
 }
-`;

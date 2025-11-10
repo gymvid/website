@@ -178,11 +178,11 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        You're in. Welcome to the <span style="color: #007AFF; font-weight: 700;">GymVid Founders Club</span> 👊
+        Welcome to the <span style="color: #1C1C1E;">GymVid Founders Club</span> 👊
       </div>
 
       <div class="body-text" style="margin-top: 20px;">
-        <strong style="color: #007AFF;">Let me know if this sounds familiar...</strong>
+        <strong>Let me know if this sounds familiar...</strong>
       </div>
 
       <div class="body-text">
@@ -211,9 +211,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text" style="font-weight: 700;">
-        <strong style="color: #007AFF;">The apps you're probably using right now...</strong>
-      </div>
+      <div class="section-header">The apps you're probably using right now...</div>
 
       <div class="body-text">
         You've likely tried Strong, Hevy, or maybe you're doing it old school with a hand written training diary.
@@ -241,9 +239,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text" style="font-weight: 700;">
-        <strong style="color: #007AFF;">Here's how it works:</strong>
-      </div>
+      <div class="section-header">Here's how it works:</div>
 
       <div class="body-text" style="margin-bottom: 20px;">
         <strong style="color: #007AFF;">→</strong> Film your set (like you already do)<br/>
@@ -259,9 +255,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text" style="font-weight: 700;">
-        <strong style="color: #007AFF;">Why you should trust this will work</strong>
-      </div>
+      <div class="section-header">Why you should trust this will work</div>
 
       <div class="body-text">
         I'm Jamie Bisset - I've spent 15 years in gyms as a PT, gym owner, and media partner to Stephanie Sanzo (5M+ followers across platforms).
@@ -272,7 +266,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <strong style="color: #007AFF;">More importantly: We've already shipped a fitness app.</strong>
+        <strong>More importantly:</strong> <span style="color: #007AFF;">We've already built and launched a fitness app.</span>
       </div>
 
       <div class="body-text">
@@ -289,9 +283,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text" style="font-weight: 700;">
-        <strong style="color: #007AFF;">Here's what I need from you:</strong>
-      </div>
+      <div class="section-header">Here's what I need from you:</div>
 
       <div class="body-text">
         What's the #1 thing that frustrates you most about tracking workouts?
@@ -307,9 +299,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text" style="font-weight: 700;">
-        <strong style="color: #007AFF;">Want early access?</strong>
-      </div>
+      <div class="section-header">Want early access?</div>
 
       <div class="body-text">
         I'm hand-selecting 50 members from the Founders Club for closed beta testing before public launch.
@@ -331,9 +321,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text" style="font-weight: 700;">
-        <strong style="color: #007AFF;">Monthly updates starting January 2026</strong>
-      </div>
+      <div class="section-header">Monthly updates starting January 2026</div>
 
       <div class="body-text">
         I'll keep you posted as we hit milestones:
@@ -349,9 +337,10 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
         Let's build this together 🙌
       </div>
 
-      <div class="signature" style="margin-top: 32px;">
+      <div class="signature" style="margin-top: 32px; font-size: 16px;">
         <strong>Jamie</strong><br/>
-        Founder & CEO, GymVid
+        Founder & CEO<br/>
+        <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" style="width: 100px; height: auto; margin-top: 12px; display: block;" />
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>

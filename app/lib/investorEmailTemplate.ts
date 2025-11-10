@@ -580,7 +580,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <strong>Most likely: Strategic acquisition</strong>
+        <strong>Most likely:</strong> <span style="color: #007AFF;">Strategic acquisition</span>
       </div>
 
       <div class="body-text">

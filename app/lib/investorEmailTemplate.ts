@@ -641,14 +641,14 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <strong>Let's set up a 30-minute call.</strong> I'll walk you through:
+        <strong style="color: #007AFF;">Let's set up a 30-minute call.</strong> I'll walk you through:
       </div>
 
       <div class="body-text">
-        • Live product demo (AI form analysis in action)<br/>
-        • Detailed unit economics model<br/>
-        • Go-to-market strategy (gym partnerships + influencer flywheel)<br/>
-        • Traction metrics we're targeting for fundability
+        <strong style="color: #007AFF;">→</strong> Live product demo (AI form analysis in action)<br/>
+        <strong style="color: #007AFF;">→</strong> Detailed unit economics model<br/>
+        <strong style="color: #007AFF;">→</strong> Go-to-market strategy (gym partnerships + influencer flywheel)<br/>
+        <strong style="color: #007AFF;">→</strong> Traction metrics we're targeting for fundability
       </div>
 
       <div class="body-text">

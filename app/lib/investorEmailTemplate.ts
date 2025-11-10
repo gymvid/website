@@ -584,10 +584,10 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        • <strong>Strava</strong> (just acquired Runna for AI coaching—we'd be their strength vertical)<br/>
-        • <strong>Whoop/Garmin/Oura</strong> (wearables need strength tracking content + validation data)<br/>
-        • <strong>Apple Fitness+</strong> (need strength training content, HealthKit integration opportunities)<br/>
-        • <strong>ClassPass/Mindbody</strong> (building full-stack fitness ecosystem)
+        • <strong>Strava</strong> → just acquired Runna for AI coaching - we'd be their strength vertical<br/>
+        • <strong>Whoop/Garmin/Oura</strong> → wearables need strength tracking content + validation data<br/>
+        • <strong>Apple Fitness+</strong> → need strength training content, HealthKit integration opportunities<br/>
+        • <strong>ClassPass/Mindbody</strong> → building full-stack fitness ecosystem
       </div>
 
       <div class="body-text">

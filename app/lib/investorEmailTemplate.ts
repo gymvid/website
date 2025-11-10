@@ -552,10 +552,10 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        • 10K users (0.005% of 200M gym members)<br/>
-        • \$5 blended ARPU = \$600K ARR<br/>
-        • Break even, validate retention (>40% Month-1)<br/>
-        • Raise seed round with proof of concept
+        <span style="color: #007AFF;">•</span> 10K users (0.005% of 200M gym members)<br/>
+        <span style="color: #007AFF;">•</span> \$5 blended ARPU = \$600K ARR<br/>
+        <span style="color: #007AFF;">•</span> Break even, validate retention (>40% Month-1)<br/>
+        <span style="color: #007AFF;">•</span> Raise seed round with proof of concept
       </div>
 
       <div class="body-text">
@@ -563,10 +563,10 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        • 100K users (0.05% penetration)<br/>
-        • \$5 blended ARPU = \$6M ARR<br/>
-        • Match current market leaders (Hevy/Strong scale)<br/>
-        • Series A readiness
+        <span style="color: #007AFF;">•</span> 100K users (0.05% penetration)<br/>
+        <span style="color: #007AFF;">•</span> \$5 blended ARPU = \$6M ARR<br/>
+        <span style="color: #007AFF;">•</span> Match current market leaders (Hevy/Strong scale)<br/>
+        <span style="color: #007AFF;">•</span> Series A readiness
       </div>
 
       <div class="body-text">
@@ -574,9 +574,9 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        • 500K users = \$30M ARR (1.5x current total market)<br/>
-        • Dominant player in video-verified strength training<br/>
-        • Multiple paths forward:
+        <span style="color: #007AFF;">•</span> 500K users = \$30M ARR (1.5x current total market)<br/>
+        <span style="color: #007AFF;">•</span> Dominant player in video-verified strength training<br/>
+        <span style="color: #007AFF;">•</span> Multiple paths forward:
       </div>
 
       <div class="body-text">

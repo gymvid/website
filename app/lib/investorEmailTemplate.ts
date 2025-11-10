@@ -127,7 +127,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <strong>That's the opportunity.</strong>
+        <strong style="color: #007AFF;">That's the opportunity.</strong>
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>

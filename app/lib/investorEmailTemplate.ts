@@ -340,10 +340,15 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div class="body-text" style="margin-bottom: 20px;">
         <span style="color: #007AFF;">→</span> Film your set<br/>
+        <br/>
         <span style="color: #007AFF;">→</span> AI detects exercise, counts reps, estimates weight<br/>
+        <br/>
         <span style="color: #007AFF;">→</span> AI analyzes form and provides coaching feedback (RPE from bar speed, Time Under Tension, Reps in Reserve)<br/>
+        <br/>
         <span style="color: #007AFF;">→</span> Post to feed with verified proof<br/>
+        <br/>
         <span style="color: #007AFF;">→</span> Compete on global leaderboards (filtered by age/gender/weight class)<br/>
+        <br/>
         <span style="color: #007AFF;">→</span> Follow other lifters, watch their workouts, build community
       </div>
 

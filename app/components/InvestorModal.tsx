@@ -224,7 +224,7 @@ export default function InvestorModal({ isOpen, onClose }: InvestorModalProps) {
                                transition-all duration-150 hover:scale-[1.02] active:scale-95
                                text-lg"
                     >
-                      Send Me the Pitch Deck
+                      Send Me the Investment Brief
                     </button>
                   </>
                 ) : step === 2 ? (
@@ -289,7 +289,7 @@ export default function InvestorModal({ isOpen, onClose }: InvestorModalProps) {
                         Where can we reach you?
                       </h2>
                       <p className="text-base text-gray-medium">
-                        We'll send you the pitch deck & let you know when our seed round launches!
+                        We'll send you the investment brief & let you know when our seed round launches!
                       </p>
                     </div>
 

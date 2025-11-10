@@ -634,9 +634,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text" style="font-weight: 700; color: #007AFF; margin-bottom: 16px;">
-        What I Need From You
-      </div>
+      <div class="section-header">What I Need From You</div>
 
       <div class="body-text">
         If this resonates…

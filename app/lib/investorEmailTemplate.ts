@@ -462,10 +462,10 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        • Core AI video logging system functional<br/>
-        • Form analysis working (RPE, Time Under Tension, Reps in Reserve calculated from bar speed)<br/>
-        • Social feed architecture complete<br/>
-        • Leaderboard system with video verification in development
+        <span style="color: #007AFF;">✓</span> Core AI video logging system functional<br/>
+        <span style="color: #007AFF;">✓</span> Form analysis working (RPE, Time Under Tension, Reps in Reserve calculated from bar speed)<br/>
+        <span style="color: #007AFF;">✓</span> Social feed architecture complete<br/>
+        <span style="color: #007AFF;">→</span> Leaderboard system with video verification in development
       </div>
 
       <div class="body-text">

@@ -543,9 +543,9 @@ export function getInvestorConfirmationEmail(firstName: string): string {
         <strong style="color: #007AFF;">Our thesis:</strong> Video-first changes the game, but we're not pitching 10x overnight growth.
       </div>
 
-      <div class="body-text">
-        <strong style="color: #007AFF;">Realistic path:</strong>
-      </div>
+      <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
+
+      <div class="section-header">The Roadmap</div>
 
       <div class="body-text">
         <strong style="color: #007AFF;">First 18 months:</strong> Prove the model works

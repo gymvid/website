@@ -609,8 +609,10 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
+      <div class="section-header">Is This Possible?</div>
+
       <div class="body-text">
-        <strong style="color: #007AFF;">Is this achievable?</strong>
+        Consider this...
       </div>
 
       <div class="body-text">

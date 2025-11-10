@@ -540,7 +540,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <strong style="color: #007AFF;">Our thesis:</strong> Video-first changes the game, but we're not pitching 10x overnight growth.
+        <strong>Our thesis:</strong> Video-first changes the game, but we're not pitching 10x overnight growth.
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>

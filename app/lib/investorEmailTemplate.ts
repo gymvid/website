@@ -340,17 +340,17 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text" style="margin-bottom: 20px;">
-        <span style="color: #007AFF;">→</span> Film your set<br/>
+        <span style="color: #007AFF; font-weight: 600;">→</span> Film your set<br/>
         <br/>
-        <span style="color: #007AFF;">→</span> AI detects exercise, counts reps, estimates weight<br/>
+        <span style="color: #007AFF; font-weight: 600;">→</span> AI detects exercise, counts reps, estimates weight<br/>
         <br/>
-        <span style="color: #007AFF;">→</span> AI analyzes form and provides coaching feedback (RPE from bar speed, Time Under Tension, Reps in Reserve)<br/>
+        <span style="color: #007AFF; font-weight: 600;">→</span> AI analyzes form and provides coaching feedback (RPE from bar speed, Time Under Tension, Reps in Reserve)<br/>
         <br/>
-        <span style="color: #007AFF;">→</span> Post to feed with verified proof<br/>
+        <span style="color: #007AFF; font-weight: 600;">→</span> Post to feed with verified proof<br/>
         <br/>
-        <span style="color: #007AFF;">→</span> Compete on global leaderboards (filtered by age/gender/weight class)<br/>
+        <span style="color: #007AFF; font-weight: 600;">→</span> Compete on global leaderboards (filtered by age/gender/weight class)<br/>
         <br/>
-        <span style="color: #007AFF;">→</span> Follow other lifters, watch their workouts, build community
+        <span style="color: #007AFF; font-weight: 600;">→</span> Follow other lifters, watch their workouts, build community
       </div>
 
       <div class="body-text">
@@ -465,7 +465,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
         <span style="color: #007AFF;">✓</span> Core AI video logging system functional<br/>
         <span style="color: #007AFF;">✓</span> Form analysis working (RPE, Time Under Tension, Reps in Reserve calculated from bar speed)<br/>
         <span style="color: #007AFF;">✓</span> Social feed architecture complete<br/>
-        <span style="color: #007AFF;">→</span> Leaderboard system with video verification in development
+        <span style="color: #007AFF; font-weight: 600;">→</span> Leaderboard system with video verification in development
       </div>
 
       <div class="body-text">
@@ -584,10 +584,10 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        • <strong>Strava</strong> → just acquired Runna for AI coaching - we'd be their strength vertical<br/>
-        • <strong>Whoop/Garmin/Oura</strong> → wearables need strength tracking content + validation data<br/>
-        • <strong>Apple Fitness+</strong> → need strength training content, HealthKit integration opportunities<br/>
-        • <strong>ClassPass/Mindbody</strong> → building full-stack fitness ecosystem
+        • <strong>Strava</strong> <strong style="color: #007AFF;">→</strong> just acquired Runna for AI coaching - we'd be their strength vertical<br/>
+        • <strong>Whoop/Garmin/Oura</strong> <strong style="color: #007AFF;">→</strong> wearables need strength tracking content + validation data<br/>
+        • <strong>Apple Fitness+</strong> <strong style="color: #007AFF;">→</strong> need strength training content, HealthKit integration opportunities<br/>
+        • <strong>ClassPass/Mindbody</strong> <strong style="color: #007AFF;">→</strong> building full-stack fitness ecosystem
       </div>
 
       <div class="body-text">
@@ -679,13 +679,13 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       <div class="section-header">Due Diligence Starting Points</div>
 
       <div class="body-text">
-        → Download Strong, Hevy, Liftoff — see why they're not Strava<br/>
+        <strong style="color: #007AFF;">→</strong> Download Strong, Hevy, Liftoff — see why they're not Strava<br/>
         <br/>
-        → Search "Strava valuation" + "Cal AI \$30M" to verify the model works<br/>
+        <strong style="color: #007AFF;">→</strong> Search "Strava valuation" + "Cal AI \$30M" to verify the model works<br/>
         <br/>
-        → Check LIFTit in app stores (50K+ downloads, 1K+ five-star reviews prove our ability to ship)<br/>
+        <strong style="color: #007AFF;">→</strong> Check LIFTit in app stores (50K+ downloads, 1K+ five-star reviews prove our ability to ship)<br/>
         <br/>
-        → SensorTower data verifiable (all revenue figures, October 2025)
+        <strong style="color: #007AFF;">→</strong> SensorTower data verifiable (all revenue figures, October 2025)
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>

@@ -291,7 +291,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       <div class="body-text">
         Strava launched when GPS became ubiquitous (2009).<br/>
         <br/>
-        We're launching when computer vision became commercially viable (2025).
+        <strong style="color: #007AFF;">We're launching when computer vision became commercially viable (2025).</strong>
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>

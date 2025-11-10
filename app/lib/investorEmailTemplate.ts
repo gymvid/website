@@ -299,7 +299,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       <div class="section-header">What We're Building</div>
 
       <div class="body-text">
-        GymVid = Strava's formula applied to strength training:
+        <strong>GymVid =</strong> Strava's formula applied to strength training:
       </div>
 
       <table>
@@ -309,27 +309,27 @@ export function getInvestorConfirmationEmail(firstName: string): string {
           <th>GymVid</th>
         </tr>
         <tr>
-          <td><strong>Automatic Logging</strong></td>
+          <td><strong style="color: #007AFF;">Automatic Logging</strong></td>
           <td>GPS Tracking</td>
           <td>AI Video Analysis</td>
         </tr>
         <tr>
-          <td><strong>Social feed</strong></td>
+          <td><strong style="color: #007AFF;">Social feed</strong></td>
           <td>Activities</td>
           <td>Workout Videos</td>
         </tr>
         <tr>
-          <td><strong>Competition</strong></td>
+          <td><strong style="color: #007AFF;">Competition</strong></td>
           <td>Segments & KOMs</td>
           <td>Categories with Video-proof</td>
         </tr>
         <tr>
-          <td><strong>Events</strong></td>
+          <td><strong style="color: #007AFF;">Events</strong></td>
           <td>Clubs, routes</td>
           <td>Gyms, exercises</td>
         </tr>
         <tr>
-          <td><strong>Creator platform</strong></td>
+          <td><strong style="color: #007AFF;">Creator platform</strong></td>
           <td>Attract Sponsors</td>
           <td>Trainers monetize</td>
         </tr>

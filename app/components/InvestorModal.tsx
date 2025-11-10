@@ -50,6 +50,7 @@ export default function InvestorModal({ isOpen, onClose }: InvestorModalProps) {
   const [investmentRange, setInvestmentRange] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
+  const [submittedFirstName, setSubmittedFirstName] = useState("");
   const [error, setError] = useState("");
 
   const handleInitialContinue = () => {
@@ -98,6 +99,7 @@ export default function InvestorModal({ isOpen, onClose }: InvestorModalProps) {
       }
 
       setIsSuccess(true);
+      setSubmittedFirstName(firstName);
       // Reset form
       setFirstName("");
       setLastName("");
@@ -126,6 +128,7 @@ export default function InvestorModal({ isOpen, onClose }: InvestorModalProps) {
     setLastName("");
     setEmail("");
     setInvestmentRange("");
+    setSubmittedFirstName("");
     setError("");
     setIsSuccess(false);
     onClose();
@@ -414,10 +417,10 @@ export default function InvestorModal({ isOpen, onClose }: InvestorModalProps) {
                   </div>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-dark mb-2">
-                  Thank you for your interest!
+                  Thanks {submittedFirstName}!
                 </h3>
                 <p className="text-base text-gray-medium">
-                  We'll be in touch soon with investment details
+                  Check your email for the investment brief. We'll be in touch soon about the seed round!
                 </p>
               </div>
             )}

@@ -484,7 +484,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       <div class="body-text">
         • My partner Stephanie's <span style="color: #007AFF; font-weight: 600;">5M+ follower network</span> launches with us<br/>
         • Direct relationships with <span style="color: #007AFF; font-weight: 600;">100+ fitness influencers</span> (Arnold Classic, Olympia, industry connections)<br/>
-        • <span style="color: #007AFF; font-weight: 600;">12+ Melbourne gym partnerships</span> already interested
+        • Many gyms have expressed intrerest in the technology (and we have a relationship with them all)
       </div>
 
       <div class="body-text">

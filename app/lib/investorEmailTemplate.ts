@@ -674,8 +674,11 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div class="body-text">
         → Download Strong, Hevy, Liftoff — see why they're not Strava<br/>
+        <br/>
         → Search "Strava valuation" + "Cal AI \$30M" to verify the model works<br/>
+        <br/>
         → Check LIFTit in app stores (50K+ downloads, 1K+ five-star reviews prove our ability to ship)<br/>
+        <br/>
         → SensorTower data verifiable (all revenue figures, October 2025)
       </div>
 

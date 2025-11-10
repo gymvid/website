@@ -155,15 +155,15 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <strong>Strong:</strong> The OG. Been around 14 years. Pure utility app focused on manual logging.
+        <strong><a href="https://apps.apple.com/us/app/strong-workout-tracker-gym-log/id464254577" style="color: #007AFF;">Strong:</a></strong> The OG. Been around 14 years. Pure utility app focused on manual logging.
       </div>
 
       <div class="body-text">
-        <strong>Hevy:</strong> The up and comer. Been around 6 years. Added basic social features (share workouts, gym selfies).
+        <strong><a href="https://apps.apple.com/us/app/hevy-workout-tracker-gym-log/id1458862350" style="color: #007AFF;">Hevy:</a></strong> The up and comer. Been around 6 years. Added basic social features (share workouts, gym selfies).
       </div>
 
       <div class="body-text">
-        <strong>Liftoff:</strong> The new kid. 4 years old. Added gamification (leaderboards, challenges).
+        <strong><a href="https://apps.apple.com/us/app/liftoff-ranked-gym-workouts/id6448081563" style="color: #007AFF;">Liftoff:</a></strong> The new kid. 4 years old. Added gamification (leaderboards, challenges).
       </div>
 
       <div class="body-text">

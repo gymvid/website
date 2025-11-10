@@ -178,124 +178,183 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        Welcome to the <span style="color: #007AFF; font-weight: 700;">GymVid Founders Club!</span>
-      </div>
-
-      <div class="body-text">
-        You've just joined something that is about to change the way that you (and the world) lift forever!
-      </div>
-
-      <div class="body-text">
-        I know that's a bold claim...
-      </div>
-
-      <div class="body-text">
-        But as someone who's spent the last 15 years working in gyms - I'm confident in saying this 👊
-      </div>
-
-      <div style="border-top: 1px solid #E5E5EA; margin: 20px 0; height: 0;"></div>
-
-      <div class="body-text" style="margin-top: 0;">
-        <strong style="color: #007AFF;">These are the problems that I've observed over the years...</strong>
-      </div>
-
-      <div class="body-text" style="margin-top: 16px;">
-        <strong><span style="color: #007AFF;">1)</span> Logging your lifts suck.</strong><br/>
-        There's nothing more demotivating than trying to record all your lifts. You're there to train - not perform data entry!
-      </div>
-
-      <div class="body-text">
-        <strong><span style="color: #007AFF;">2)</span> Personal trainers are expensive.</strong><br/>
-        I'm saying this as a PT myself! Getting coaching isn't feasible for everyone - but it should be.
-      </div>
-
-      <div class="body-text">
-        <strong><span style="color: #007AFF;">3)</span> It's hard to stay motivated.</strong><br/>
-        Training is often repetitive & can easily become stale - especially without a training partner or a supportive gym community.
-      </div>
-
-      <div class="body-text">
-        <strong><span style="color: #007AFF;">4)</span> Training has become entertainment.</strong><br/>
-        These days, social media rewards fast pace low value content. What happened to real, raw, training?
-      </div>
-
-      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 28px 0;" />
-
-      <div class="body-text">
-        <strong>That's exactly why we built GymVid.</strong>
-      </div>
-
-      <div class="body-text">
-        You film your set. That's it. AI handles the logging instantly — no tapping, no data entry. Just training.
-      </div>
-
-      <div class="body-text">
-        Plus, you'll never question your form again. Get real feedback on every lift so you're constantly improving. <strong>Better form = better gains.</strong> That's how serious lifters level up.
-      </div>
-
-      <div class="body-text">
-        And here's what's cool: you're already filming anyway. So why not share those videos with people who actually care about lifting? Real training partners. People who compete with video proof. No filters, no BS.
+        You're in. Welcome to the <span style="color: #007AFF; font-weight: 700;">GymVid Founders Club</span> 👊
       </div>
 
       <div class="body-text" style="margin-top: 20px;">
-        <strong style="color: #007AFF;">All of this will be possible within GymVid.</strong>
-      </div>
-
-      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 28px 0;" />
-
-      <div class="body-text" style="font-weight: 700; margin-bottom: 16px;">
-        As a Founder, here's what you get:
-      </div>
-
-      <div class="body-text" style="margin-bottom: 12px;">
-        ✅ Early access when we launch (targeting Q1 2026)
-      </div>
-
-      <div class="body-text" style="margin-bottom: 12px;">
-        ✅ Founding member pricing — you'll pay less than everyone else
+        <strong style="color: #007AFF;">Let me know if this sounds familiar...</strong>
       </div>
 
       <div class="body-text">
-        ✅ Direct line to me — your feedback shapes what we build
-      </div>
-
-      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 28px 0;" />
-
-      <div class="body-text" style="font-weight: 700; color: #007AFF; margin-bottom: 16px;">
-        Here's what I need from you...
+        Walk into any gym and you'll see phones propped against water bottles everywhere.
       </div>
 
       <div class="body-text">
-        What's the #1 thing that frustrates you most about tracking workouts right now?
+        People filming sets - some for form checks, others for social media content.
       </div>
 
       <div class="body-text">
-        Reply and tell me. I'm using founder feedback to prioritize features.
-      </div>
-
-      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 28px 0;" />
-
-      <div class="body-text">
-        We're in the final stages of development now. I'll keep you updated as we hit milestones.
+        Maybe you're one of them?
       </div>
 
       <div class="body-text">
-        Can't wait to build this with you! 🙌
+        But here's the annoying part:
       </div>
 
-      <div class="signature" style="margin-top: 12px;">
-        <strong>Jamie</strong><br/>
-        Founder & CEO, GymVid<br/>
-        <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" style="width: 100px; height: auto; margin-top: 12px; display: block;" />
+      <div class="body-text">
+        Whether you're filming for yourself or for social media, you're STILL opening a separate app to manually log everything you just recorded.
+      </div>
+
+      <div class="body-text">
+        <strong style="color: #007AFF;">That's the friction we're eliminating.</strong>
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="body-text" style="margin-top: 28px; color: #8E8E93;">
-        <strong style="color: #1C1C1E;">P.S.</strong> I'm selecting a small group for beta testing before launch. If you want early access to test features and give feedback, reply with <span style="color: #007AFF; font-weight: 600;">"BETA"</span> and let me know.
+      <div class="body-text" style="font-weight: 700;">
+        <strong style="color: #007AFF;">The apps you're probably using right now...</strong>
       </div>
 
-      <hr style="border: none; border-top: 1px solid #E5E5EA; margin: 28px 0 0 0;" />
+      <div class="body-text">
+        You've likely tried Strong, Hevy, or maybe you're doing it old school with a hand written training diary.
+      </div>
+
+      <div class="body-text">
+        "All these methods are great for tracking (which is a necessity for making progress).
+      </div>
+
+      <div class="body-text">
+        But they're all built on manual logging."
+      </div>
+
+      <div class="body-text">
+        Nobody's built the obvious solution yet:
+      </div>
+
+      <div class="body-text">
+        <strong style="color: #007AFF;">Make the video DO the logging.</strong>
+      </div>
+
+      <div class="body-text">
+        That's GymVid.
+      </div>
+
+      <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
+
+      <div class="body-text" style="font-weight: 700;">
+        <strong style="color: #007AFF;">Here's how it works:</strong>
+      </div>
+
+      <div class="body-text" style="margin-bottom: 20px;">
+        <strong style="color: #007AFF;">→</strong> Film your set (like you already do)<br/>
+        <strong style="color: #007AFF;">→</strong> AI detects exercise, counts reps, estimates weight, analyzes form<br/>
+        <strong style="color: #007AFF;">→</strong> Get instant feedback on RPE, time under tension, reps in reserve<br/>
+        <strong style="color: #007AFF;">→</strong> Post to your feed on a platform where people actually care about your lifts<br/>
+        <strong style="color: #007AFF;">→</strong> Compete on leaderboards (records awarded by age/gender/weight class)
+      </div>
+
+      <div class="body-text">
+        <strong style="color: #007AFF;">Literally, just film and lift.</strong>
+      </div>
+
+      <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
+
+      <div class="body-text" style="font-weight: 700;">
+        <strong style="color: #007AFF;">Why you should trust this will work</strong>
+      </div>
+
+      <div class="body-text">
+        I'm Jamie Bisset - I've spent 15 years in gyms as a PT, gym owner, and media partner to Stephanie Sanzo (5M+ followers across platforms).
+      </div>
+
+      <div class="body-text">
+        Together we've created fitness content generating over 1 billion views.
+      </div>
+
+      <div class="body-text">
+        <strong style="color: #007AFF;">More importantly: We've already shipped a fitness app.</strong>
+      </div>
+
+      <div class="body-text">
+        LIFTit (built for Stephanie's audience) is live in app stores with 50K+ downloads.
+      </div>
+
+      <div class="body-text">
+        We know how to build products lifters actually use.
+      </div>
+
+      <div class="body-text">
+        GymVid isn't our first app - it's everything we learned from LIFTit, rebuilt from the ground up for video-first strength training.
+      </div>
+
+      <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
+
+      <div class="body-text" style="font-weight: 700;">
+        <strong style="color: #007AFF;">Here's what I need from you:</strong>
+      </div>
+
+      <div class="body-text">
+        What's the #1 thing that frustrates you most about tracking workouts?
+      </div>
+
+      <div class="body-text">
+        <strong style="color: #007AFF;">Reply and tell me.</strong>
+      </div>
+
+      <div class="body-text">
+        I'm using founder feedback to prioritize features for beta - and I read every single response.
+      </div>
+
+      <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
+
+      <div class="body-text" style="font-weight: 700;">
+        <strong style="color: #007AFF;">Want early access?</strong>
+      </div>
+
+      <div class="body-text">
+        I'm hand-selecting 50 members from the Founders Club for closed beta testing before public launch.
+      </div>
+
+      <div class="body-text">
+        If you want in, just reply <span style="color: #007AFF; font-weight: 600;">"BETA"</span> and I'll follow up directly.
+      </div>
+
+      <div class="body-text">
+        Beta testers get:
+      </div>
+
+      <div class="body-text">
+        • Free access during beta (3-6 months)<br/>
+        • First access to new features<br/>
+        • Direct line to me and the dev team
+      </div>
+
+      <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
+
+      <div class="body-text" style="font-weight: 700;">
+        <strong style="color: #007AFF;">Monthly updates starting January 2026</strong>
+      </div>
+
+      <div class="body-text">
+        I'll keep you posted as we hit milestones:
+      </div>
+
+      <div class="body-text">
+        • New exercises supported (we're starting with the big 3, then expanding)<br/>
+        • Form analysis improvements (depth tracking, bar path, tempo)<br/>
+        • Beta tester feedback and feature launches
+      </div>
+
+      <div class="body-text">
+        Let's build this together 🙌
+      </div>
+
+      <div class="signature" style="margin-top: 32px;">
+        <strong>Jamie</strong><br/>
+        Founder & CEO, GymVid
+      </div>
+
+      <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
     </div>
 
     <div class="footer">

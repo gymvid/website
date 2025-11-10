@@ -690,11 +690,15 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <strong>This is Strava for strength training. And I'm the person to build it.</strong>
+        <strong>Want to help us build the Strava for strength training?</strong>
       </div>
 
       <div class="body-text">
-        Can't wait to show you what we're building! 👊
+        Let me know if you're interested and I'll keep you posted once we launch our seed round.
+      </div>
+
+      <div class="body-text">
+        Talk soon!
       </div>
 
       <div class="signature" style="margin-top: 12px;">

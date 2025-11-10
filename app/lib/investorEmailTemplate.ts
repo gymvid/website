@@ -519,9 +519,9 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <div class="body-text">
         • <span style="color: #007AFF; font-weight: 600;">100K+ videos</span> of proprietary training data<br/>
-        • AI models fine-tuned on real gym footage<br/>
-        • Creator network effects (personal trainers building followings)<br/>
-        • First-mover brand ("the video one")
+        • <span style="color: #007AFF; font-weight: 600;">AI models fine-tuned</span> on real gym footage<br/>
+        • Creator <span style="color: #007AFF; font-weight: 600;">network effects</span> (personal trainers building followings)<br/>
+        • <span style="color: #007AFF; font-weight: 600;">First-mover</span> brand ("the video one")
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>

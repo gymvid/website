@@ -303,24 +303,34 @@ export function getInvestorConfirmationEmail(firstName: string): string {
 
       <table>
         <tr>
+          <th>MOAT</th>
           <th>Strava</th>
           <th>GymVid</th>
         </tr>
         <tr>
-          <td><strong>Automatic logging</strong><br/>GPS</td>
-          <td><strong>Automatic logging</strong><br/>AI video</td>
+          <td><strong>Automatic Logging</strong></td>
+          <td>GPS Tracking</td>
+          <td>AI Video Analysis</td>
         </tr>
         <tr>
-          <td><strong>Social feed</strong><br/>Activities</td>
-          <td><strong>Social feed</strong><br/>Workout videos</td>
+          <td><strong>Social feed</strong></td>
+          <td>Activities</td>
+          <td>Workout Videos</td>
         </tr>
         <tr>
-          <td><strong>Verified competition</strong><br/>Segments, KOMs</td>
-          <td><strong>Verified competition</strong><br/>Video-proof PRs</td>
+          <td><strong>Competition</strong></td>
+          <td>Segments & KOMs</td>
+          <td>Categories with Video-proof</td>
         </tr>
         <tr>
-          <td><strong>Creator platform</strong><br/>Clubs, routes</td>
-          <td><strong>Creator platform</strong><br/>Trainers monetize</td>
+          <td><strong>Events</strong></td>
+          <td>Clubs, routes</td>
+          <td>Gyms, exercises</td>
+        </tr>
+        <tr>
+          <td><strong>Creator platform</strong></td>
+          <td>Attract Sponsors</td>
+          <td>Trainers monetize</td>
         </tr>
       </table>
 

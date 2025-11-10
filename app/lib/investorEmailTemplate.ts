@@ -720,7 +720,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
         Talk soon!
       </div>
 
-      <div class="signature" style="margin-top: 12px;">
+      <div class="signature" style="margin-top: 12px; font-size: 16px;">
         <strong>Jamie</strong><br/>
         Founder & CEO, GymVid<br/>
         <img src="https://www.gymvid.com/images/logo/gymvid-transparent-logo.png" alt="GymVid" style="width: 100px; height: auto; margin-top: 12px; display: block;" />

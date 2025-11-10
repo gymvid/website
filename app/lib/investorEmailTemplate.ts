@@ -574,7 +574,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <strong style="color: #007AFF;">Most likely: Strategic acquisition</strong>
+        <strong>Most likely: Strategic acquisition</strong>
       </div>
 
       <div class="body-text">

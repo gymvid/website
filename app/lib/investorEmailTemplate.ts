@@ -331,7 +331,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
         <tr>
           <td><strong style="color: #007AFF;">Creator platform</strong></td>
           <td>Attract Sponsors</td>
-          <td>Trainers monetize</td>
+          <td>Trainers can promote & monetize</td>
         </tr>
       </table>
 

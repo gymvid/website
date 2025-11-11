@@ -154,6 +154,13 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       margin: 28px 0 16px;
       color: #1C1C1E;
     }
+    .card {
+      background-color: #f0f7ff;
+      border: 2px solid #007AFF;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 24px 0;
+    }
 
     @media only screen and (max-width: 600px) {
       .content {
@@ -315,14 +322,16 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
         If you want in, just reply <span style="color: #007AFF; font-weight: 600;">"BETA"</span> and I'll follow up directly.
       </div>
 
-      <div class="body-text">
-        <strong>Beta testers get:</strong>
-      </div>
+      <div class="card">
+        <div class="body-text">
+          <strong>Beta testers get:</strong>
+        </div>
 
-      <div class="body-text">
-        <span style="color: #007AFF; font-weight: 700;">✓</span> Free access during beta (3-6 months)<br/>
-        <span style="color: #007AFF; font-weight: 700;">✓</span> First access to new features<br/>
-        <span style="color: #007AFF; font-weight: 700;">✓</span> Direct line to me and the dev team
+        <div class="body-text">
+          <span style="color: #007AFF; font-weight: 700;">✓</span> Free access during beta (3-6 months)<br/>
+          <span style="color: #007AFF; font-weight: 700;">✓</span> First access to new features<br/>
+          <span style="color: #007AFF; font-weight: 700;">✓</span> Direct line to me and the dev team
+        </div>
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>

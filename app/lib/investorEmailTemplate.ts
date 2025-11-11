@@ -340,17 +340,17 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text" style="margin-bottom: 20px;">
-        <span style="color: #007AFF; font-weight: 600;">→</span> Film your set<br/>
+        <span style="color: #007AFF; font-weight: 600;">1)</span> Film your set<br/>
         <br/>
-        <span style="color: #007AFF; font-weight: 600;">→</span> AI detects exercise, counts reps, estimates weight<br/>
+        <span style="color: #007AFF; font-weight: 600;">2)</span> AI detects exercise, counts reps, estimates weight<br/>
         <br/>
-        <span style="color: #007AFF; font-weight: 600;">→</span> AI analyzes form and provides coaching feedback (RPE from bar speed, Time Under Tension, Reps in Reserve)<br/>
+        <span style="color: #007AFF; font-weight: 600;">3)</span> AI analyzes form and provides coaching feedback (RPE from bar speed, Time Under Tension, Reps in Reserve)<br/>
         <br/>
-        <span style="color: #007AFF; font-weight: 600;">→</span> Post to feed with verified proof<br/>
+        <span style="color: #007AFF; font-weight: 600;">4)</span> Post to feed with verified proof<br/>
         <br/>
-        <span style="color: #007AFF; font-weight: 600;">→</span> Compete on global leaderboards (filtered by age/gender/weight class)<br/>
+        <span style="color: #007AFF; font-weight: 600;">5)</span> Compete on global leaderboards (filtered by age/gender/weight class)<br/>
         <br/>
-        <span style="color: #007AFF; font-weight: 600;">→</span> Follow other lifters, watch their workouts, build community
+        <span style="color: #007AFF; font-weight: 600;">6)</span> Follow other lifters, watch their workouts, build community
       </div>
 
       <div class="body-text">

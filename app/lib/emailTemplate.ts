@@ -149,7 +149,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       text-decoration: none;
     }
     .section-header {
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 700;
       margin: 28px 0 16px;
       color: #1C1C1E;

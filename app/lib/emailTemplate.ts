@@ -327,7 +327,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="section-header">Monthly updates starting January 2026</div>
+      <div class="section-header">Monthly updates starting January</div>
 
       <div class="body-text">
         I'll keep you posted as we hit milestones:

@@ -370,19 +370,19 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <strong style="color: #007AFF;">1)</strong> <strong>Higher engagement:</strong> Lifters train 4-5x/week vs runners/cyclists 2-3x/week
+        <span style="color: #007AFF; font-weight: 700;">✓</span> <strong>Higher engagement:</strong> Lifters train 4-5x/week vs runners/cyclists 2-3x/week
       </div>
 
       <div class="body-text">
-        <strong style="color: #007AFF;">2)</strong> <strong>Higher monetization:</strong> Strength athletes spend more on coaching, programs, and tracking
+        <span style="color: #007AFF; font-weight: 700;">✓</span> <strong>Higher monetization:</strong> Strength athletes spend more on coaching, programs, and tracking
       </div>
 
       <div class="body-text">
-        <strong style="color: #007AFF;">3)</strong> <strong>No dominant player:</strong> Strava owns running/cycling. Strength is fragmented across weak apps
+        <span style="color: #007AFF; font-weight: 700;">✓</span> <strong>No dominant player:</strong> Strava owns running/cycling. Strength is fragmented across weak apps
       </div>
 
       <div class="body-text">
-        <strong style="color: #007AFF;">4)</strong> <strong>Creator economy:</strong> 2M+ personal trainers globally need a platform to build following and attract clients. Strava doesn't serve this.
+        <span style="color: #007AFF; font-weight: 700;">✓</span> <strong>Creator economy:</strong> 2M+ personal trainers globally need a platform to build following and attract clients. Strava doesn't serve this.
       </div>
 
       <div class="body-text">

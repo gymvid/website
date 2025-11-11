@@ -450,9 +450,9 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <span style="color: #007AFF; font-weight: 600;">•</span> LIFTit (50K+ downloads, nearly 1,000 five-star reviews)<br/>
-        <span style="color: #007AFF; font-weight: 600;">•</span> React Native + Supabase + AI integration (proven tech stack)<br/>
-        <span style="color: #007AFF; font-weight: 600;">•</span> 24-month working relationship building LIFTit (trust + execution history)
+        <span style="color: #007AFF; font-weight: 600;">✓</span> LIFTit (50K+ downloads, nearly 1,000 five-star reviews)<br/>
+        <span style="color: #007AFF; font-weight: 600;">✓</span> React Native + Supabase + AI integration (proven tech stack)<br/>
+        <span style="color: #007AFF; font-weight: 600;">✓</span> 24-month working relationship building LIFTit (trust + execution history)
       </div>
 
       <div class="body-text">

@@ -464,8 +464,15 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       <div class="body-text">
         <span style="color: #007AFF;">✓</span> Core AI video logging system functional<br/>
         <span style="color: #007AFF;">✓</span> Form analysis working (RPE, Time Under Tension, Reps in Reserve calculated from bar speed)<br/>
-        <span style="color: #007AFF;">✓</span> Social feed architecture complete<br/>
-        <span style="color: #007AFF; font-weight: 600;">→</span> Leaderboard system with video verification in development
+        <span style="color: #007AFF;">✓</span> Social feed architecture complete
+      </div>
+
+      <div class="body-text">
+        <strong>Currently:</strong>
+      </div>
+
+      <div class="body-text">
+        <span style="color: #007AFF; font-weight: 700;">→</span> In development of the leaderboard system with video verification
       </div>
 
       <div class="body-text">
@@ -473,8 +480,8 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        • <strong>Beta launch:</strong> Q1 2026<br/>
-        • <strong>Target:</strong> 1,000 users within 6 months (organic growth + gym partnerships)
+        <span style="color: #007AFF; font-weight: 700;">→</span> <strong>Beta launch:</strong> Q1 2026<br/>
+        <span style="color: #007AFF; font-weight: 700;">→</span> <strong>Target:</strong> 1,000 users within 6 months (organic growth + gym partnerships)
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>

@@ -438,7 +438,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       <div class="section-header">The Team</div>
 
       <div class="body-text">
-        I've partnered with Shine Dezign to help launch GymVid - we've worked together for nearly 3 years across multiple ventures, including building LIFTit.
+        I've partnered with Shine Dezign - the same development team that built LIFTit with me.
       </div>
 
       <div class="body-text">
@@ -446,11 +446,21 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        We structured this as a performance-based equity partnership (up to 22.5% to Shine upon hitting development milestones) with fixed cash recovery upon revenue generation.
+        This partnership has already delivered:
       </div>
 
       <div class="body-text">
-        <strong style="color: #007AFF;">No runway pressure. Just execution.</strong>
+        <span style="color: #007AFF; font-weight: 600;">•</span> LIFTit (50K+ downloads, nearly 1,000 five-star reviews)<br/>
+        <span style="color: #007AFF; font-weight: 600;">•</span> React Native + Supabase + AI integration (proven tech stack)<br/>
+        <span style="color: #007AFF; font-weight: 600;">•</span> 24-month working relationship building LIFTit (trust + execution history)
+      </div>
+
+      <div class="body-text">
+        We structured this as an equity partnership (17.5% to Shine, with performance bonuses to reach up to 22.5%) and a capped cost recovery (payable only from future profits or funding).
+      </div>
+
+      <div class="body-text">
+        <strong style="color: #007AFF;">This partnership ensured that we're equally aligned - working together to build something that we believe will be a category defining product.</strong>
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>

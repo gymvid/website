@@ -240,7 +240,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        That's GymVid.
+        <strong style="color: #1C1C1E;">That's GymVid.</strong>
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
@@ -334,9 +334,9 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        • New exercises supported (we're starting with the big 3, then expanding)<br/>
-        • Form analysis improvements (depth tracking, bar path, tempo)<br/>
-        • Beta tester feedback and feature launches
+        <span style="color: #007AFF; font-weight: 700;">→</span> New exercises supported (we're starting with the big 3, then expanding)<br/>
+        <span style="color: #007AFF; font-weight: 700;">→</span> Form analysis improvements (depth tracking, bar path, tempo)<br/>
+        <span style="color: #007AFF; font-weight: 700;">→</span> Beta tester feedback and feature launches
       </div>
 
       <div class="body-text">

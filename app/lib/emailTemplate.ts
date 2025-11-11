@@ -316,13 +316,13 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        Beta testers get:
+        <strong>Beta testers get:</strong>
       </div>
 
       <div class="body-text">
-        • Free access during beta (3-6 months)<br/>
-        • First access to new features<br/>
-        • Direct line to me and the dev team
+        <span style="color: #007AFF; font-weight: 700;">✓</span> Free access during beta (3-6 months)<br/>
+        <span style="color: #007AFF; font-weight: 700;">✓</span> First access to new features<br/>
+        <span style="color: #007AFF; font-weight: 700;">✓</span> Direct line to me and the dev team
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>

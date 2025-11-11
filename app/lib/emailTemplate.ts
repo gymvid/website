@@ -220,19 +220,19 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       <div class="section-header">The apps you're probably using right now...</div>
 
       <div class="body-text">
-        You've likely tried Strong, Hevy, or maybe you're doing it old school with a hand written training diary.
+        You've likely tried Strong, Hevy, or maybe something like MyFitnessPal.
       </div>
 
       <div class="body-text">
-        "All these methods are great for tracking (which is a necessity for making progress).
+        And all these apps are great for tracking (which is a necessity for making progress).
       </div>
 
       <div class="body-text">
-        But they're all built on manual logging."
+        But they're all built on manual logging.
       </div>
 
       <div class="body-text">
-        Nobody's built the obvious solution yet:
+        Nobody's built the obvious solution for strength training yet:
       </div>
 
       <div class="body-text">

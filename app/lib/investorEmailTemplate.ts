@@ -482,8 +482,8 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       <div class="section-header">Day 1 Distribution Advantage</div>
 
       <div class="body-text">
-        • My partner Stephanie's <span style="color: #007AFF; font-weight: 600;">5M+ follower network</span> launches with us<br/>
-        • Direct relationships with <span style="color: #007AFF; font-weight: 600;">100+ fitness influencers</span> (Arnold Classic, Olympia, industry connections)
+        <span style="color: #007AFF; font-weight: 700;">✓</span> My partner Stephanie's <span style="color: #007AFF; font-weight: 600;">5M+ follower network</span> launches with us<br/>
+        <span style="color: #007AFF; font-weight: 700;">✓</span> Direct relationships with <span style="color: #007AFF; font-weight: 600;">100+ fitness influencers</span> (Arnold Classic, Olympia, industry connections)
       </div>
 
       <div class="body-text">

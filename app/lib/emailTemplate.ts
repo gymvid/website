@@ -264,7 +264,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
       <div class="section-header">Why you should trust this will work...</div>
 
       <div class="body-text">
-        I'm Jamie Bisset - I've spent 15 years in gyms as a PT, gym owner, and media partner to Stephanie Sanzo (5M+ followers across platforms).
+        My name is Jamie Bisset - I've spent 15 years in gyms as a PT, gym owner, and media partner to Stephanie Sanzo (5M+ followers across platforms).
       </div>
 
       <div class="body-text">

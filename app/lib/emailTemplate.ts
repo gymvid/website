@@ -261,7 +261,7 @@ export function getWaitlistConfirmationEmail(firstName: string): string {
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
 
-      <div class="section-header">Why you should trust this will work</div>
+      <div class="section-header">Why you should trust this will work...</div>
 
       <div class="body-text">
         I'm Jamie Bisset - I've spent 15 years in gyms as a PT, gym owner, and media partner to Stephanie Sanzo (5M+ followers across platforms).

@@ -285,7 +285,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        If AI works for static images (meals), it works for video — which provides exponentially more data for movement analysis.
+        If AI works for static images (meals), it works for video - which provides exponentially more data for movement analysis.
       </div>
 
       <div class="body-text">
@@ -418,7 +418,7 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        Built exclusively for Stephanie's audience, it's now live in app stores with <span style="color: #007AFF; font-weight: 600;">50K+ downloads</span> and <span style="color: #007AFF; font-weight: 600;">1,000+ five-star reviews.</span>
+        Built exclusively for Stephanie's audience, it's now live in app stores with <span style="color: #007AFF; font-weight: 600;">50K+ downloads.</span>
       </div>
 
       <div class="body-text">
@@ -503,9 +503,9 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        • Complete technical rebuild (18-24 months minimum)<br/>
-        • Computer vision expertise they don't have in-house<br/>
-        • Re-educating millions of users on new behavior (filming vs manual entry)
+        <span style="color: #007AFF; font-weight: 700;">→</span> Complete technical rebuild (18-24 months minimum)<br/>
+        <span style="color: #007AFF; font-weight: 700;">→</span> Computer vision expertise they don't have in-house<br/>
+        <span style="color: #007AFF; font-weight: 700;">→</span> Re-educating millions of users on new behavior (filming vs manual entry)
       </div>
 
       <div class="body-text">
@@ -517,10 +517,10 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        • <span style="color: #007AFF; font-weight: 600;">100K+ videos</span> of proprietary training data<br/>
-        • <span style="color: #007AFF; font-weight: 600;">AI models fine-tuned</span> on real gym footage<br/>
-        • Creator <span style="color: #007AFF; font-weight: 600;">network effects</span> (personal trainers building followings)<br/>
-        • <span style="color: #007AFF; font-weight: 600;">First-mover</span> brand ("the video one")
+        <span style="color: #007AFF; font-weight: 700;">✓</span> <span style="color: #007AFF; font-weight: 600;">100K+ videos</span> of proprietary training data<br/>
+        <span style="color: #007AFF; font-weight: 700;">✓</span> <span style="color: #007AFF; font-weight: 600;">AI models fine-tuned</span> on real gym footage<br/>
+        <span style="color: #007AFF; font-weight: 700;">✓</span> Creator <span style="color: #007AFF; font-weight: 600;">network effects</span> (personal trainers building followings)<br/>
+        <span style="color: #007AFF; font-weight: 700;">✓</span> <span style="color: #007AFF; font-weight: 600;">First-mover</span> brand ("the video one")
       </div>
 
       <div style="border-top: 1px solid #E5E5EA; margin: 28px 0; height: 0;"></div>
@@ -551,10 +551,10 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <span style="color: #007AFF;">•</span> 10K users (0.005% of 200M gym members)<br/>
-        <span style="color: #007AFF;">•</span> \$5 blended ARPU = \$600K ARR<br/>
-        <span style="color: #007AFF;">•</span> Break even, validate retention (>40% Month-1)<br/>
-        <span style="color: #007AFF;">•</span> Raise seed round with proof of concept
+        <span style="color: #007AFF; font-weight: 700;">✓</span> 10K users (0.005% of 200M gym members)<br/>
+        <span style="color: #007AFF; font-weight: 700;">✓</span> \$5 blended ARPU = \$600K ARR<br/>
+        <span style="color: #007AFF; font-weight: 700;">✓</span> Break even, validate retention (>40% Month-1)<br/>
+        <span style="color: #007AFF; font-weight: 700;">✓</span> Raise seed round with proof of concept
       </div>
 
       <div class="body-text">
@@ -562,10 +562,10 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        <span style="color: #007AFF;">•</span> 100K users (0.05% penetration)<br/>
-        <span style="color: #007AFF;">•</span> \$5 blended ARPU = \$6M ARR<br/>
-        <span style="color: #007AFF;">•</span> Match current market leaders (Hevy/Strong scale)<br/>
-        <span style="color: #007AFF;">•</span> Series A readiness
+        <span style="color: #007AFF; font-weight: 700;">✓</span> 100K users (0.05% penetration)<br/>
+        <span style="color: #007AFF; font-weight: 700;">✓</span> \$5 blended ARPU = \$6M ARR<br/>
+        <span style="color: #007AFF; font-weight: 700;">✓</span> Match current market leaders (Hevy/Strong scale)<br/>
+        <span style="color: #007AFF; font-weight: 700;">✓</span> Series A readiness
       </div>
 
       <div class="body-text">
@@ -583,10 +583,10 @@ export function getInvestorConfirmationEmail(firstName: string): string {
       </div>
 
       <div class="body-text">
-        • <strong>Strava</strong> <strong style="color: #007AFF;">→</strong> just acquired Runna for AI coaching - we'd be their strength vertical<br/>
-        • <strong>Whoop/Garmin/Oura</strong> <strong style="color: #007AFF;">→</strong> wearables need strength tracking content + validation data<br/>
-        • <strong>Apple Fitness+</strong> <strong style="color: #007AFF;">→</strong> need strength training content, HealthKit integration opportunities<br/>
-        • <strong>ClassPass/Mindbody</strong> <strong style="color: #007AFF;">→</strong> building full-stack fitness ecosystem
+        <span style="color: #007AFF; font-weight: 700;">✓</span> <strong>Strava</strong> — just acquired Runna for AI coaching - we'd be their strength vertical<br/>
+        <span style="color: #007AFF; font-weight: 700;">✓</span> <strong>Whoop/Garmin/Oura</strong> — wearables need strength tracking content + validation data<br/>
+        <span style="color: #007AFF; font-weight: 700;">✓</span> <strong>Apple Fitness+</strong> — need strength training content, HealthKit integration opportunities<br/>
+        <span style="color: #007AFF; font-weight: 700;">✓</span> <strong>ClassPass/Mindbody</strong> — building full-stack fitness ecosystem
       </div>
 
       <div class="body-text">

@@ -127,8 +127,12 @@ export async function POST(request: Request) {
           },
         ],
         from: {
-          email: "hello@gymvid.com",
+          email: "jamie@gymvid.com",
           name: "Jamie Bisset | GymVid",
+        },
+        reply_to: {
+          email: "hello@gymvid.com",
+          name: "GymVid Support",
         },
         content: [
           {
@@ -225,8 +229,12 @@ export async function POST(request: Request) {
           },
         ],
         from: {
-          email: "hello@gymvid.com",
+          email: "jamie@gymvid.com",
           name: "GymVid Notifications",
+        },
+        reply_to: {
+          email: "hello@gymvid.com",
+          name: "GymVid Support",
         },
         content: [
           {
